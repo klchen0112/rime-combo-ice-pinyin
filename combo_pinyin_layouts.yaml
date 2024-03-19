@@ -603,13 +603,6 @@ use_zhia_layout:
       - ia_shared_options
       - common_options
 
-use_zhia_engrammer_layout:
-  chord_composer/+:
-    __patch:
-      - zhia_engrammer_layout_options
-      - ia_shared_options
-      - common_options
-
 use_zhn_layout:
   chord_composer/+:
     __patch:
@@ -669,7 +662,7 @@ use_apostrophe:
 
 use_control:
   chord_composer/+:
-    alphabet: ',''aukeojiyxcbg{Control_L}.;hlr tdmswfvnq'
+    alphabet: 'gtbfrvdecswxaqz{Control_L}hynjum ki,lo.p'
     use_control: true
 
 use_alt:

@@ -83,12 +83,12 @@ __patch:
   # - combo_pinyin_layouts:/use_gia_layout
   # 解封下列代碼，選用其他佈局選項
   # 八指禪，默認字母A = h
-  #- combo_pinyin_layouts:/use_zhia_layout
-  - combo_pinyin_layouts:/use_zhia_engrammer_layout
+  - combo_pinyin_layouts:/use_zhia_layout
+  #- combo_pinyin_layouts:/use_zhia_engrammer_layout
   # 八指禪：選定左手拇指 h 鍵
   # - combo_pinyin_layouts:/use_semicolon
   # - combo_pinyin_layouts:/use_apostrophe
-  # - combo_pinyin_layouts:/use_control
+  - combo_pinyin_layouts:/use_control
   # - combo_pinyin_layouts:/use_alt
   # - combo_pinyin_layouts:/use_shift
   # 九指禪
@@ -99,7 +99,7 @@ __patch:
   # - combo_pinyin_layouts:/use_gywa_emacsen_layout
 
   # 使用八股文語言模型
-  - grammar:/hant?
+  - grammar:/hans?
 
   # 用家自選配置
   - combo_pinyin.custom:/patch?
