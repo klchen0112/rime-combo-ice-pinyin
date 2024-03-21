@@ -70,7 +70,7 @@ patch:
   "style/font_point": 14
   "style/fullscreen": false
   "style/hide_candidates_when_single": false
-  "style/horizontal": false
+  "style/horizontal": true
   "style/inline_preedit": true
   "style/label_font_face": "霞鹜新晰黑, Segoe UI, Noto Color Emoji SVG:80 , Microsoft Yahei"
   "style/label_font_point": 14
