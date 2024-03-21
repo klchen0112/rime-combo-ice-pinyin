@@ -5,8 +5,19 @@ patch:
     hotkeys:
       - "Shift+space"
       - F4
+    save_options:
+      - ascii_punct
+      - traditionalization
+      - emoji
+      - full_shape
+      - search_single_char
+    fold_options: true            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
+    abbreviate_options: true      # 折叠时是否缩写选项
+    option_list_separator: ' / '  # 折叠时的选项分隔符
+
   schema_list:
     - schema: combo_pinyin
+    - schema: combo_pinyin_engrammer
     - schema: easy_en
     - schema: rime_ice
     - schema: japanese
@@ -17,10 +28,16 @@ patch:
     switch_key:
       Shift_L: commit_text # 已输入的候选文字上屏并切换至英文输入模式
       Shift_R: inline_ascii # 在输入法的临时英文编辑区内输入字母、数字、符号、空格等，回车上屏后自动复位到中文
-      Control_L: commit_code
+      Control_L: noop
       Control_R: commit_code
       Caps_Lock: noop
       Eisu_toggle: clear
+  key_binder/bindings:
+    # Tab / Shift+Tab 切换光标至下 /上一个拼音
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
   #key_binder:
   #  bindings:,
   #    - { when: composing, accept: Control+p, send: Up }
