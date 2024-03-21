@@ -1,0 +1,238 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: combo_pinyin_engrammer
+  name: 宮保拼音Engrammer
+  version: '2.0'
+  author:
+    - 居戎氏 <chen.sst@gmail.com>
+  description: |
+    並擊輸入拼音
+    https://github.com/rime/home/wiki/ComboPinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: traditionalization
+    states: [ 简, 繁 ]
+    reset: 0
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: emoji
+    states: [ 💀, 😄 ]
+    reset: 1
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - chord_composer  # 實現並擊按鍵處理
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier                                    # 简繁切换
+    - simplifier@emoji                              # Emoji
+    - uniquifier
+#
+# gt bfrvdecswxaqzhynjum ki,lo.p;''
+# gt pzdbclfsczHXXRRRiuVaNIUeoEXS;QQ
+
+chord_composer:
+  use_control: true
+  alphabet: ',''-aukeojiyxcbg.;/{Control_L}hlr tdmswfvnpqz'
+  # 拼寫運算規則，將一組並擊編碼轉換爲拼音音節
+  algebra:
+    # 若 Control/Alt/Shift 鍵參與並擊，須改以單個字符表示按鍵
+    - 'xform/\{Control_L\}/:/'
+    - 'xform/\{Alt_L\}/:/'
+    - 'xform/\{Shift_L\}/+/'
+    # 將物理按鍵字符對應到宮保拼音鍵位中的拼音字母
+    - 'xlit|,''-aukeojiyxcbg.;/hlr tdmswfvnpqz|gtpzdbclfsczHXXRRRiuVaNIUeoEXS;QQ|'
+    # 以下根據宮保拼音的鍵位分別變換聲母、韻母部分
+    # 單擊時發送標點符號
+    - xform|^U$|,|
+    - xform|^E$|.|
+    # 與Shift鍵組合時發送標點符號
+    - xform|^[+]U$|<|
+    - xform|^[+]E$|>|
+    # 可選：單擊時發送標點符號
+    #- xform|^S$|;|
+    # 分號較少用，改爲通過組合輸出（僅當分號鍵用作 h 鍵時）
+    - 'xform/^[HX]S$|^S[XR]$/;/'
+    # 左手拇指鍵 h 爲分號鍵，表記爲 h
+    - xlit|S|h|
+    # 可選：單擊時發送標點符號
+    #- "xform|^Q$|'|"
+    # 單引號較少用，改爲通過組合輸出（僅當單引號鍵用作 h 鍵時）
+    - 'xform/^[HX]Q$|^Q[XR]$/''/'
+    # 左手拇指鍵 h 爲單引號鍵，表記爲 h
+    - xlit|Q|h|
+    # 左手拇指鍵 h 爲修飾鍵之一，統一表記爲 h
+    - 'xlit|:+|hh|'
+    # 可選：左手拇指鍵 h 在組合中作⟨h⟩、單擊作空格鍵，方便雙手交替上字
+    #- 'xform/^h$/ /'
+    # 空格鍵單擊時發送空白
+    - 'xform/^a$/ /'
+    # 特例：以組合鍵[ae]輸入拼音⟨a⟩
+    - xform/^ae$/a/
+    # ⟨er⟩自成音節
+    - xform/^R$/er/
+    # 消除無效按鍵
+    - xform/[XR]+//
+    # 將鍵位 h、h' 統一表記爲 h
+    - xform/Hh?/h/
+    # 組合聲母
+    - xform/^bh/p/
+    - xform/^dh/t/
+    - xform/^gh/k/
+    #- xform/^fh/v/
+    - xform/^bf/m/
+    - xform/^dl/n/
+    - xform/^zc/r/
+    # PC鍵盤組合聲母
+    - xform/^b[zcsh]+/p/
+    - xform/^d[zcsh]+/t/
+    - xform/^g[zcsh]+/k/
+    - xform/^[zr][sh]+/zh/
+    - xform/^csh/ch/
+    # 兼容大衆式
+    - xform/^cs/sh/
+    - xform/^lc/ch/
+    - xform/^fz/zh/
+    # 消除多餘的 h
+    - xform/([^zcs])h/\1/
+
+    # g,k,h 接 i/ü 時作 ⟨ji/ju, qi/qu, xi/xu⟩
+    - xform/^[gz]([iV])/j$1/
+    - xform/^[kc]([iV])/q$1/
+    - xform/^[hs]([iV])/x$1/
+    # 上排三鍵並擊 ⟨ong, uang⟩
+    - xform/(ua?)Io$/$1Ne/
+    - xform/aI$/ai/
+    - xform/I[oe]$/ei/
+    - xform/uI$/uei/
+    # -i 鍵亦可用作韻母 ⟨i⟩
+    - xform/^gI$/ji/
+    - xform/^kI$/qi/
+    - xform/^hI$/xi/
+    - xform/I$/i/
+    # 下排三鍵並擊 ⟨iong⟩
+    - xform/VUE$/VNe/
+    # ü 活用爲介音 ⟨i⟩ 以利於並擊 ⟨iao, iou⟩
+    - xform/V(a?)U$/i$1U/
+    - xform/aU$/ao/
+    - xform/UE?$/ou/
+    - xform/aN?e$/ang/
+    - xform/([iuV])Ne$/$1ng/
+    # ⟨eng⟩ 省略 ⟨e⟩
+    - xform/Ne$/eng/
+    - xform/^ung$/weng/
+    - xform/ung$/ong/
+    - xform/Vng$/iong/
+    - xform/([aiuV])N$/$1n/
+    # ⟨en⟩ 省略 ⟨e⟩
+    - xform/N$/en/
+    - xform/^un$/wen/
+    # 漢語拼音方案的拼寫規則
+    - xform/^i(ng?)$/yi$1/
+    - xform/^i$/yi/
+    - xform/^i/y/
+    - xform/^u$/wu/
+    - xform/^u/w/
+    - xform/^V/yu/
+    - xform/^([jqx])V/$1u/
+    # 一些容錯
+    - xform/^([zcsr]h?)i([aoe])/$1$2/
+    - xform/^([zcsr]h?)i(ng?)$/$1e$2/
+    # 拼寫規則
+    - xform/iou$/iu/
+    - xform/uei$/ui/
+    - xlit/VE/ve/
+    # 聲母獨用時補足隠含的韻母
+    # ⟨bu, pu, fu⟩
+    - xform/^([bpf])$/$1u/
+    # ⟨de, te, ne, le, ge, ke, he⟩，特別地，⟨me⟩ 對應常用字「麼·么」
+    - xform/^([mdtnlgkh])$/$1e/
+    # ⟨zhi, chi, shi, ri, zi, ci si⟩，舌尖元音無須按鍵，尤其 z,c,s 不得與 i 鍵並擊
+    - xform/^([zcsr]h?)$/$1i/
+  # 並擊完成後套用的式樣
+  output_format:
+    # 追加隔音符號
+    - "xform/^([bpm])([iu]|a|i?e|o|[ae]i|i?ao|[oi]u|i?an|[ie]n|[ei]ng|ang|ong)$/$1$2'/"
+    - "xform/^([fw])(u|a|o|[ae]i|ao|ou|an|en|eng|ang|ong)$/$1$2'/"
+    - "xform/^([dt])([iu]|i?a|i?e|uo|[aeu]i|i?ao|[oi]u|[iu]?an|[ue]n|[ei]ng|ang|ong)$/$1$2'/"
+    - "xform/^([nl])([iuv]|i?a|[iv]?e|u?o|[aeu]i|i?ao|[oi]u|[iu]?an|[iue]n|[ei]ng|i?ang|ong)$/$1$2'/"
+    - "xform/^([gkh])(u|u?a|e|uo|u?ai|[ue]i|ao|ou|u?an|[ue]n|eng|u?ang|ong)$/$1$2'/"
+    - "xform/^([zcs]h?|r)([iu]|u?a|e|uo|u?ai|[ue]i|ao|ou|u?an|[ue]n|eng|u?ang|ong)$/$1$2'/"
+    - "xform/^([jqxy])([iu]|i?a|[iu]?e|o|i?ao|[oi]u|[iu]?an|[iu]n|ing|i?ang|i?ong)$/$1$2'/"
+    - "xform/^([aeo]|[ae]i|ao|ou|[ae]ng?|er)$/$1'/"
+    # 消除不構成合法音節的並擊組合
+    - "erase/^([A-Za-z]+)$/"
+  # 並擊過程中套用的式樣
+  prompt_format:
+    # 加方括弧
+    - 'xform/^(.*)$/[$1]/'
+
+editor:
+  bindings:
+    BackSpace: back_syllable
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba'"
+  initials: "zyxwvutsrqponmlkjihgfedcba"
+  delimiter: " "
+  algebra:
+    # 拼音音節一律後加隔音符號，避免音節切分歧義
+    - "xform/^([a-z]+)$/$1'/"
+
+translator:
+  dictionary: combo_pinyin
+  prism: combo_pinyin_engrammer
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - "xform/' /'/"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+
+# 简繁切换
+traditionalize:
+  option_name: traditionalization
+  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+
+
+__patch:
+  # 使用八股文語言模型
+  - grammar:/hans?

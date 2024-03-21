@@ -17,10 +17,14 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+  - name: traditionalization
+    states: [ 简, 繁 ]
+    reset: 0
   - name: ascii_punct
     states: [ 。，, ．， ]
+  - name: emoji
+    states: [ 💀, 😄 ]
+    reset: 1
 
 engine:
   processors:
@@ -43,8 +47,10 @@ engine:
     - punct_translator
     - script_translator
   filters:
-    - simplifier
+    - simplifier                                    # 简繁切换
+    - simplifier@emoji                              # Emoji
     - uniquifier
+
 
 chord_composer:
 
@@ -77,6 +83,18 @@ key_binder:
 
 recognizer:
   import_preset: default
+
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+
+# 简繁切换
+traditionalize:
+  option_name: traditionalization
+  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 __patch:
   # 默認七指禪（大衆式）
