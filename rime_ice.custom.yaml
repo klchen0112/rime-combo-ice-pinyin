@@ -8,3 +8,8 @@ patch:
     schema/dependencies:
         - easy_en
         - radical_pinyin
+    grammar:
+        language: zh-hans-t-essay-bgw
+    translator/contextual_suggestions: true
+    translator/max_homophones: 7
+    translator/max_homographs: 7
