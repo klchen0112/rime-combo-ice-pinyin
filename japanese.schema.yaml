@@ -9,7 +9,7 @@ schema:
   author:
     - ensigma96 <ensigma96@gmail.com>
   dependencies:
-    - terra_pinyin.extended # for using reverse lookup
+    - rime_ice
     - stroke
 
 switches:
@@ -18,7 +18,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
+  - name: traditionalization
     states: [ 漢字, 汉字 ]
     reset: 0
   #- options: [jp_variants, zh_simp, zh_tw ]
@@ -88,7 +88,7 @@ translator:
 putonghua_to_kanji_lookup:
   tag: putonghua_to_kanji_lookup
   prefix: "`"  # 獨用jyutping_lookup反查在反查鍵「`」之後再鍵入〔大寫〕「J」
-  dictionary: terra_pinyin.extended
+  dictionary: rime_ice
   prism: td_pinyin_flypy
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/

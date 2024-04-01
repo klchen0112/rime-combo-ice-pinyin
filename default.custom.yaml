@@ -20,7 +20,8 @@ patch:
     - schema: combo_pinyin_engrammer
     - schema: easy_en
     - schema: rime_ice
-    - schema: japanese
+    #- schema: japanese
+    #- schema: storke
   menu:
     page_size: 5
   ascii_composer:
