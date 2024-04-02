@@ -4,7 +4,7 @@
 schema:
   schema_id: combo_pinyin
   name: 宮保拼音
-  version: '2.0'
+  version: "2.0"
   author:
     - 居戎氏 <chen.sst@gmail.com>
   description: |
@@ -14,23 +14,23 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    states: [中文, 西文]
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [半角, 全角]
   - name: traditionalization
-    states: [ 简, 繁 ]
+    states: [简, 繁]
     reset: 0
   - name: ascii_punct
-    states: [ 。，, ．， ]
+    states: [。，, ．，]
   - name: emoji
-    states: [ 💀, 😄 ]
+    states: [💀, 😄]
     reset: 1
 
 engine:
   processors:
     - ascii_composer
     - recognizer
-    - chord_composer  # 實現並擊按鍵處理
+    - chord_composer # 實現並擊按鍵處理
     - key_binder
     - speller
     - punctuator
@@ -47,10 +47,9 @@ engine:
     - punct_translator
     - script_translator
   filters:
-    - simplifier                                    # 简繁切换
-    - simplifier@emoji                              # Emoji
+    - simplifier # 简繁切换
+    - simplifier@emoji # Emoji
     - uniquifier
-
 
 chord_composer:
 
@@ -67,7 +66,7 @@ speller:
     - "xform/^([a-z]+)$/$1'/"
 
 translator:
-  dictionary: combo_pinyin
+  dictionary: rime_ice
   prism: combo_pinyin
   preedit_format:
     - xform/([nl])v/$1ü/
@@ -92,9 +91,9 @@ emoji:
 # 简繁切换
 traditionalize:
   option_name: traditionalization
-  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
-  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  opencc_config: s2t.json # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [abc, number, gregorian_to_lunar] # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 __patch:
   # 默認七指禪（大衆式）
