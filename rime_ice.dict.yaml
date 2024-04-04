@@ -18,6 +18,7 @@ import_tables:
   - "cn_dicts/pinyin_simp_wiki"
   - "cn_dicts/pinyin_simp_chengyu"
   - "cn_dicts/pinyin_simp_gushi"
+  - "cn_dicts/yugioh"
 ...
 
 # 按需启用：
