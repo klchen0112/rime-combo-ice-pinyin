@@ -27,9 +27,12 @@ switches:
   - name: emoji
     states: [💀, 😄]
     reset: 1
-
+  - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
+    abbrev: [词, 单]
+    states: [正常, 单字]
 engine:
   processors:
+    - lua_processor@select_character          # 以词定字
     - ascii_composer
     - recognizer
     - chord_composer # 實現並擊按鍵處理
@@ -49,7 +52,8 @@ engine:
     - punct_translator
     - script_translator
   filters:
-    - simplifier # 简繁切换
+    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@traditionalize # 简繁切换
     - simplifier@emoji # Emoji
     - uniquifier
 
@@ -58,6 +62,20 @@ chord_composer:
 editor:
   bindings:
     BackSpace: back_syllable
+
+# Lua 配置：长词优先
+# 提升 count 个词语，插入到第 idx 个位置。
+# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+long_word_filter:
+  count: 2
+  idx: 4
+
+# 简繁切换
+traditionalize:
+  option_name: traditionalization
+  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba'"
