@@ -1,1408 +1,4717 @@
-customKeyStyles: {}
+keyboard:
+  colorSchemas: []
+keyStyle: {}
 keyboards:
-  - name: 中
-    isPrimary: false
-    rows:
-      - keys:
-          - action:
-              character:
-                char: q
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "1"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ！
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: w
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "2"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "@"
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: e
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "3"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "#"
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: r
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "4"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: $
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: t
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "5"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "%"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: y
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "6"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ……
-                label: ^
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: u
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "7"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "&"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: i
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "8"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "*"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: o
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "9"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: （
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: p
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "0"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ）
-                display: true
-                processByRIME: true
-                direction: down
-      - keys:
-          - action: none
-            width: available
-          - action:
-              character:
-                char: a
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "`"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "~"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: s
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: +
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "-"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: d
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: /
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: =
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: f
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "["
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "]"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: g
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: <
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "{"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: h
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ">"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "}"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: j
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: \
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ·
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: k
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ;
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ":"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: l
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "'"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: '"'
-                display: true
-                processByRIME: true
-                direction: down
-          - action: none
-            width: available
-      - keys:
-          - action: shift
-            width:
-              percentage: 0.13
-            swipe:
-              - action: tab
-                label: ↔
-                display: true
-                processByRIME: true
-                direction: up
-              - action: shift
-                display: true
-                processByRIME: false
-                direction: down
-          - action: none
-            width: available
-          - action:
-              character:
-                char: z
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  shortcutCommand: "#行首"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#左移"
-                label: ⇠
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: x
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ？
-                label: ？
-                display: true
-                processByRIME: false
-                direction: up
-              - action:
-                  character:
-                    char: "?"
-                label: "?"
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: c
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ，
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ","
-                label: ","
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: v
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: 。
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: .
-                label: .
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: b
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: →
-                display: true
-                processByRIME: false
-                direction: up
-              - action:
-                  character:
-                    char: ←
-                display: true
-                processByRIME: false
-                direction: down
-          - action:
-              character:
-                char: n
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ·
-                display: true
-                processByRIME: false
-                direction: up
-              - action:
-                  character:
-                    char: "|"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: m
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  shortcutCommand: "#行尾"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#右移"
-                label: ⇢
-                display: true
-                processByRIME: true
-                direction: down
-          - action: none
-            width: available
-          - action: backspace
-            width:
-              portrait:
-                percentage: 0.14
-              landscape:
-                percentage: 0.13
-            swipe:
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: down
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: right
-      - keys:
-          - action:
-              keyboardType: "123"
-            width:
-              portrait:
-                percentage: 0.15
-              landscape:
-                percentage: 0.1
-            label: "123"
-            swipe:
-              - action:
-                  shortcutCommand: "#左手模式"
-                label: ↙
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#RimeSwitcher"
-                display: true
-                processByRIME: true
-                direction: down
-              - action:
-                  shortcutCommand: "#左手模式"
-                label: ↙
-                display: true
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#右手模式"
-                label: ↘
-                display: true
-                processByRIME: true
-                direction: right
-          - action:
-              keyboardType: abc
-            processByRIME: false
-            width:
-              percentage: 0.1
-            label: abc
-            swipe:
-              - action:
-                  character:
-                    char: ","
-                label: ","
-                display: true
-                processByRIME: false
-                direction: up
-              - action:
-                  character:
-                    char: .
-                label: .
-                display: true
-                processByRIME: false
-                direction: down
-          - action: space
-            width: available
-            swipe:
-              - action:
-                  shortcutCommand: "#次选上屏"
-                label: ²
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#三选上屏"
-                label: ³
-                display: true
-                processByRIME: true
-                direction: down
-          - action: enter
-            width:
-              portrait:
-                percentage: 0.25
-              landscape:
-                percentage: 0.1
-            swipe:
-              - action:
-                  shortcutCommand: "#换行"
-                label: ↵
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  keyboardType: emojis
-                display: true
-                processByRIME: false
-                direction: down
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: left
-    buttonInsets: 2
-  - name: "123"
-    isPrimary: false
-    rows:
-      - keys:
-          - action:
-              character:
-                char: (
-            width:
-              portrait:
-                percentage: 0.16
-              landscape:
-                percentage: 0.1
-            label: (
-            swipe:
-              - action:
-                  character:
-                    char: ""
-                label: (
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: <
-                label: <
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: +
-            width:
-              portrait: available
-              landscape:
-                percentage: 0.1
-          - action:
-              character:
-                char: "1"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 一
-                label: 一
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ""
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: "2"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 二
-                label: 二
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: "3"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 三
-                label: 三
-                display: true
-                processByRIME: true
-                direction: up
-          - action: backspace
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: down
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: right
-      - keys:
-          - action:
-              character:
-                char: ）
-            width:
-              portrait:
-                percentage: 0.16
-              landscape:
-                percentage: 0.1
-            label: ）
-            swipe:
-              - action:
-                  character:
-                    char: )
-                label: )
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ">"
-                label: ">"
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: "-"
-            width:
-              portrait: available
-              landscape:
-                percentage: 0.1
-          - action:
-              character:
-                char: "4"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 四
-                label: 四
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: "5"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 五
-                label: 五
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: "6"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 六
-                label: 六
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: =
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: ^
-                label: ^
-                display: true
-                processByRIME: true
-                direction: up
-      - keys:
-          - action:
-              keyboardType: classifySymbolic
-            width:
-              portrait:
-                percentage: 0.16
-              landscape:
-                percentage: 0.1
-            label: 更多
-          - action:
-              character:
-                char: "*"
-            width:
-              portrait: available
-              landscape:
-                percentage: 0.1
-            label: ×
-          - action:
-              character:
-                char: "7"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 七
-                label: 七
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: "8"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 八
-                label: 八
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: "9"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 九
-                label: 九
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: "%"
-            processByRIME: false
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            label: "%"
-            swipe:
-              - action:
-                  character:
-                    char: "%"
-                label: "%"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ℃
-                label: ℃
-                display: true
-                processByRIME: true
-                direction: down
-      - keys:
-          - action:
-              keyboardType: 中
-            width:
-              portrait:
-                percentage: 0.16
-              landscape:
-                percentage: 0.2
-            label: 中
-            swipe:
-              - action:
-                  keyboardType: abc
-                label: 英
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ""
-                display: true
-                processByRIME: true
-                direction: down
-              - action:
-                  shortcutCommand: "#左手模式"
-                label: ↙
-                display: true
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#右手模式"
-                display: true
-                processByRIME: true
-                direction: right
-          - action:
-              character:
-                char: /
-            width:
-              portrait: available
-              landscape:
-                percentage: 0.1
-            label: ÷
-          - action:
-              character:
-                char: .
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            label: .
-            swipe:
-              - action:
-                  character:
-                    char: ","
-                label: ","
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ;
-                label: ;
-                display: true
-                processByRIME: true
-                direction: down
-          - action:
-              character:
-                char: "0"
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  character:
-                    char: 零
-                label: 零
-                display: true
-                processByRIME: true
-                direction: up
-          - action: space
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-          - action: enter
-            width:
-              portrait:
-                percentage: 0.18
-              landscape:
-                percentage: 0.2
-            swipe:
-              - action:
-                  shortcutCommand: "#换行"
-                display: true
-                processByRIME: true
-                direction: up
-    buttonInsets: 3
-  - name: abc
-    isPrimary: false
-    rows:
-      - keys:
-          - action:
-              character:
-                char: q
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "1"
-                label: "1"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: w
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "2"
-                label: "2"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: e
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "3"
-                label: "3"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: r
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "4"
-                label: "4"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: t
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "5"
-                label: "5"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: y
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "6"
-                label: "6"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: u
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "7"
-                label: "7"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: i
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "8"
-                label: "8"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: o
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "9"
-                label: "9"
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: p
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "0"
-                label: "0"
-                display: true
-                processByRIME: true
-                direction: up
-      - keys:
-          - action: none
-            processByRIME: false
-            width: available
-          - action:
-              character:
-                char: a
-            processByRIME: false
-            width:
-              percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ""
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: s
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: d
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: f
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: g
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: h
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: j
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: k
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: l
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action: none
-            processByRIME: false
-            width: available
-      - keys:
-          - action: shift
-            processByRIME: false
-            width:
-              percentage: 0.13
-          - action: none
-            processByRIME: false
-            width: available
-          - action:
-              character:
-                char: z
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: x
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: c
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: v
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: b
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: n
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action:
-              character:
-                char: m
-            processByRIME: false
-            width:
-              percentage: 0.1
-          - action: none
-            processByRIME: false
-            width: available
-          - action: backspace
-            width:
-              portrait:
-                percentage: 0.14
-              landscape:
-                percentage: 0.13
-            swipe:
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: down
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: right
-      - keys:
-          - action:
-              keyboardType: "123"
-            width:
-              portrait:
-                percentage: 0.15
-              landscape:
-                percentage: 0.1
-            label: "123"
-            swipe:
-              - action:
-                  shortcutCommand: "#左手模式"
-                label: ↙
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#右手模式"
-                label: ↘
-                display: true
-                processByRIME: true
-                direction: down
-              - action:
-                  shortcutCommand: "#左手模式"
-                label: ↙
-                display: true
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#右手模式"
-                label: ↘
-                display: true
-                processByRIME: true
-                direction: right
-          - action:
-              keyboardType: 中
-            processByRIME: false
-            width:
-              percentage: 0.1
-            label: 中
-            swipe:
-              - action:
-                  character:
-                    char: .
-                label: .
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ","
-                label: ","
-                display: true
-                processByRIME: true
-                direction: down
-          - action: space
-            width: available
-            swipe:
-              - action:
-                  shortcutCommand: "#次选上屏"
-                label: ²
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  shortcutCommand: "#三选上屏"
-                label: ³
-                display: true
-                processByRIME: true
-                direction: down
-          - action: enter
-            width:
-              portrait:
-                percentage: 0.25
-              landscape:
-                percentage: 0.1
-            swipe:
-              - action:
-                  shortcutCommand: "#换行"
-                label: ↵
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
-                  keyboardType: emojis
-                display: true
-                processByRIME: false
-                direction: down
-              - action:
-                  shortcutCommand: "#重输"
-                display: true
-                processByRIME: true
-                direction: left
-    buttonInsets: 2
+- name: 护眼绿中文☕️
+  isPrimary: true
+  rows:
+  - keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: Q
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '1'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '!'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: w
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: W
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '2'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout:
+      - action:
+          symbol:
+            char: gmail.com
+        label:
+          loadingText: ''
+          text: ''
+      - action:
+          symbol:
+            char: qq.com
+        label:
+          loadingText: ''
+          text: ''
+      - action:
+          symbol:
+            char: 163.com
+        label:
+          loadingText: ''
+          text: ''
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: e
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: E
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '3'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '#'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: r
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: R
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '4'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: $
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: t
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: T
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '5'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '%'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: y
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: Y
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '6'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: ^
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: u
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: U
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '7'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '&'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: i
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: I
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '8'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '*'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: o
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: O
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '9'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: (
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: p
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: P
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '0'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: )
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+  - keys:
+    - action: none
+      width:
+        portrait:
+          percentage: 0.05
+        landscape:
+          percentage: 0.05
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: a
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: A
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '~'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: s
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: S
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: _
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: d
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: D
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: +
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '='
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: '='
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: f
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: F
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '?'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '|'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: g
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: G
+      processByRIME: true
+      swipe:
+      - direction: left
+        action:
+          shortcutCommand: '#左手模式'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右手模式'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: up
+        action:
+          character:
+            char: ':'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: /
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: h
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: H
+      processByRIME: true
+      swipe:
+      - direction: down
+        action:
+          character:
+            char: \
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: up
+        action:
+          character:
+            char: ;
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: j
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: J
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '['
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: k
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: K
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: ']'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: l
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: L
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: ''''
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.05
+        landscape:
+          percentage: 0.05
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  - keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action: tab
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: Tab
+      - direction: down
+        action: tab
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: z
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: Z
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#行首'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F0CDD"
+      - direction: down
+        action:
+          character:
+            char: ···
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: x
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: X
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#剪切'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F0190"
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: c
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: C
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#复制'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: v
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: V
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#粘贴'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F0192"
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: b
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: B
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#RimeSwitcher'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F07E1"
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Delete
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F05E8"
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: n
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: N
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ','
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand: '#换行'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F17A6"
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: m
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: M
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: .
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand: '#行尾'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F0CDF"
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+  - keys:
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文数字符号☕️
+      width:
+        portrait:
+          percentage: 0.14
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          keyboardType: emojis
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F0C70"
+      - direction: down
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文数字☕️
+      width:
+        portrait:
+          percentage: 0.13
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: true
+      swipe: []
+      callout:
+      - action:
+          symbol:
+            char: .com
+        label:
+          loadingText: ''
+          text: ''
+      - action:
+          symbol:
+            char: .net
+        label:
+          loadingText: ''
+          text: ''
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: space
+      width:
+        portrait: available
+        landscape:
+          percentage: 0.4
+      label:
+        loadingText: ''
+        text: "\U000F1050"
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#次选上屏'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand: '#三选上屏'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文☕️
+      width:
+        portrait:
+          percentage: 0.12
+        landscape: available
+      label:
+        loadingText: ''
+        text: 中
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#简繁切换'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: 简/繁
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.23
+        landscape:
+          percentage: 0.2
+      label:
+        loadingText: ''
+        text:  确认
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+  - rowHeight:
+      portrait: 2
+      landscape: 10
+    keys:
+    - action: none
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+  buttonInsets:
+    left: 3
+    right: 2
+    top: 3
+    bottom: 3
+  keyStyle:
+    护眼绿_Q_浅:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_Z_深:
+      buttonBackgroundColor: '0xFF2D7246'
+      pressedButtonBackgroundColor: '0x2F6041'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_Q_深:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_A_浅:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_A_深:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x2D7246'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_数字_浅:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_数字_深:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF000000'
+      pressedSwipeForegroundColor: '0xFF000000'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_Z_浅:
+      buttonBackgroundColor: '0x2D7246'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2D7246'
+- name: 护眼绿中文数字符号☕️
+  isPrimary: false
+  rows:
+  - keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+  - keys:
+    - action:
+        character:
+          char: '~'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: /
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: ':'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: ;
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: (
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: )
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '&'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '@'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: “
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: ”
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+  - keys:
+    - action:
+        keyboardType: classifySymbolic
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: '-'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: _
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '#'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '?'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '!'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: ','
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: .
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+  - keys:
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文☕️
+      width:
+        portrait:
+          percentage: 0.14
+        landscape: available
+      label:
+        loadingText: ''
+        text: 中
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文数字☕️
+      width:
+        portrait:
+          percentage: 0.13
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: space
+      width:
+        portrait: available
+        landscape:
+          percentage: 0.5
+      label:
+        loadingText: ''
+        text: "\U000F1050"
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文数字符号☕️
+      width:
+        portrait:
+          percentage: 0.12
+        landscape: available
+      label:
+        loadingText: ''
+        text: 全/半
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.23
+        landscape:
+          percentage: 0.2
+      label:
+        loadingText: ''
+        text:  确认
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+  - rowHeight:
+      portrait: 2
+      landscape: 10
+    keys:
+    - action: none
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  buttonInsets:
+    left: 3
+    right: 2
+    top: 3
+    bottom: 3
+  keyStyle:
+    护眼绿_数字_浅:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_Z_浅:
+      buttonBackgroundColor: '0x2D7246'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_Q_浅:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_Z_深:
+      buttonBackgroundColor: '0xFF2D7246'
+      pressedButtonBackgroundColor: '0x2F6041'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_Q_深:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_数字_深:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF000000'
+      pressedSwipeForegroundColor: '0xFF000000'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_A_浅:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_A_深:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x2D7246'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF4D9962'
+- name: 护眼绿中文数字☕️
+  isPrimary: true
+  rows:
+  - keys:
+    - action:
+        character:
+          char: +
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '-'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action: backspace
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: "\U000F05E8"
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+  - keys:
+    - action:
+        character:
+          char: '*'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ×
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: /
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ÷
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: '@'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+  - keys:
+    - action:
+        character:
+          char: (
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: )
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '='
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+  - keys:
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文☕️
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: 中
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: space
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: "\U000F1050"
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        character:
+          char: .
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: enter
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+  - rowHeight:
+      portrait: 2
+      landscape: 10
+    keys:
+    - action: none
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  buttonInsets:
+    left: 3
+    right: 2
+    top: 3
+    bottom: 3
+  keyStyle:
+    护眼绿_数字_浅:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_Z_浅:
+      buttonBackgroundColor: '0x2D7246'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_数字_深:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF000000'
+      pressedSwipeForegroundColor: '0xFF000000'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_A_深:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x2D7246'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_Z_深:
+      buttonBackgroundColor: '0xFF2D7246'
+      pressedButtonBackgroundColor: '0x2F6041'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_Q_深:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_A_浅:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_Q_浅:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF72BF90'
+- name: 护眼绿英文☕️
+  isPrimary: true
+  rows:
+  - keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '1'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '!'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: w
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '2'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout:
+      - action:
+          symbol:
+            char: gmail.com
+        label:
+          loadingText: ''
+          text: ''
+      - action:
+          symbol:
+            char: qq.com
+        label:
+          loadingText: ''
+          text: ''
+      - action:
+          symbol:
+            char: 163.com
+        label:
+          loadingText: ''
+          text: ''
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: e
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '3'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '#'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: r
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '4'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: $
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: t
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '5'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '%'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: y
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '6'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: ^
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: u
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '7'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '&'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: i
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '8'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '*'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: o
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '9'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: (
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: p
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '0'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: )
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+  - keys:
+    - action: none
+      width:
+        portrait:
+          percentage: 0.05
+        landscape:
+          percentage: 0.05
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: a
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '~'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: s
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: _
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: d
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: +
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '='
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: f
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: down
+        action:
+          character:
+            char: '|'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: up
+        action:
+          character:
+            char: '?'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: g
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: left
+        action:
+          shortcutCommand: '#左手模式'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右手模式'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: up
+        action:
+          character:
+            char: ':'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: /
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: h
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: down
+        action:
+          character:
+            char: \
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: up
+        action:
+          character:
+            char: ;
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: j
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: '['
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: k
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: ']'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: l
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          character:
+            char: ''''
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.05
+        landscape:
+          percentage: 0.05
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+  - keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action: tab
+        processByRIME: false
+        display: false
+        label:
+          loadingText: ''
+          text: Tab
+      - direction: down
+        action: tab
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: z
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: x
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: c
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: v
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: b
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: n
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ','
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: m
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: .
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe:
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+  - keys:
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文数字符号☕️
+      width:
+        portrait:
+          percentage: 0.14
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: false
+      swipe:
+      - direction: up
+        action:
+          keyboardType: emojis
+        processByRIME: false
+        display: true
+        label:
+          loadingText: ''
+          text: "\U000F0C70"
+      - direction: down
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: false
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文数字☕️
+      width:
+        portrait:
+          percentage: 0.13
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: false
+      swipe: []
+      callout:
+      - action:
+          symbol:
+            char: .com
+        label:
+          loadingText: ''
+          text: ''
+      - action:
+          symbol:
+            char: .net
+        label:
+          loadingText: ''
+          text: ''
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: space
+      width:
+        portrait: available
+        landscape:
+          percentage: 0.4
+      label:
+        loadingText: ''
+        text: "\U000F1050"
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文☕️
+      width:
+        portrait:
+          percentage: 0.12
+        landscape: available
+      label:
+        loadingText: ''
+        text: En
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.23
+        landscape:
+          percentage: 0.2
+      label:
+        loadingText: ''
+        text:  Enter
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+  - rowHeight:
+      portrait: 2
+      landscape: 10
+    keys:
+    - action: none
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  buttonInsets:
+    left: 3
+    right: 2
+    top: 3
+    bottom: 3
+  keyStyle:
+    护眼绿_Q_浅:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_数字_浅:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_Z_浅:
+      buttonBackgroundColor: '0x2D7246'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_数字_深:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF000000'
+      pressedSwipeForegroundColor: '0xFF000000'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_A_深:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x2D7246'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_Q_深:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_Z_深:
+      buttonBackgroundColor: '0xFF2D7246'
+      pressedButtonBackgroundColor: '0x2F6041'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_A_浅:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF4D9962'
+- name: 护眼绿英文数字符号☕️
+  isPrimary: false
+  rows:
+  - keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+  - keys:
+    - action:
+        symbol:
+          char: '~'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: /
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: ':'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: ;
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: (
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: )
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: '&'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: '@'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: '"'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: ''''
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+  - keys:
+    - action:
+        keyboardType: classifySymbolic
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: '-'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: _
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '#'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '?'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '!'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: ','
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: .
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action: none
+      width:
+        portrait:
+          percentage: 0.01
+        landscape:
+          percentage: 0.02
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.14
+        landscape:
+          percentage: 0.13
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+  - keys:
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文☕️
+      width:
+        portrait:
+          percentage: 0.14
+        landscape: available
+      label:
+        loadingText: ''
+        text: En
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文数字☕️
+      width:
+        portrait:
+          percentage: 0.13
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: space
+      width:
+        portrait: available
+        landscape:
+          percentage: 0.5
+      label:
+        loadingText: ''
+        text: "\U000F1050"
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿中文数字符号☕️
+      width:
+        portrait:
+          percentage: 0.12
+        landscape: available
+      label:
+        loadingText: ''
+        text: 半/全
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.23
+        landscape:
+          percentage: 0.2
+      label:
+        loadingText: ''
+        text:  Enter
+      processByRIME: false
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+  - rowHeight:
+      portrait: 2
+      landscape: 10
+    keys:
+    - action: none
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  buttonInsets:
+    left: 3
+    right: 2
+    top: 3
+    bottom: 3
+  keyStyle:
+    护眼绿_Q_深:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_A_浅:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_A_深:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x2D7246'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_Z_浅:
+      buttonBackgroundColor: '0x2D7246'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_数字_浅:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_Q_浅:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_Z_深:
+      buttonBackgroundColor: '0xFF2D7246'
+      pressedButtonBackgroundColor: '0x2F6041'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_数字_深:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF000000'
+      pressedSwipeForegroundColor: '0xFF000000'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2F6041'
+- name: 护眼绿英文数字☕️
+  isPrimary: true
+  rows:
+  - keys:
+    - action:
+        character:
+          char: +
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '-'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+    - action: backspace
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: "\U000F05E8"
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Q_浅
+      darkModeStyleName: 护眼绿_Q_深
+  - keys:
+    - action:
+        character:
+          char: '*'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ×
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: /
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ÷
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        symbol:
+          char: '@'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+  - keys:
+    - action:
+        character:
+          char: (
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: )
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_A_浅
+      darkModeStyleName: 护眼绿_A_深
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+    - action:
+        character:
+          char: '='
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_Z_浅
+      darkModeStyleName: 护眼绿_Z_深
+  - keys:
+    - action:
+        keyboardType:
+          custom:
+            named: 护眼绿英文☕️
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: En
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: space
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: "\U000F1050"
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action:
+        symbol:
+          char: .
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+    - action: enter
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: 
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 护眼绿_数字_浅
+      darkModeStyleName: 护眼绿_数字_深
+  - rowHeight:
+      portrait: 2
+      landscape: 10
+    keys:
+    - action: none
+      width:
+        portrait: available
+        landscape: available
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  buttonInsets:
+    left: 3
+    right: 2
+    top: 3
+    bottom: 3
+  keyStyle:
+    护眼绿_Q_浅:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_Z_浅:
+      buttonBackgroundColor: '0x2D7246'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_Z_深:
+      buttonBackgroundColor: '0xFF2D7246'
+      pressedButtonBackgroundColor: '0x2F6041'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2D7246'
+    护眼绿_Q_深:
+      buttonBackgroundColor: '0x72BF90'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0xFF323232'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01474747'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF72BF90'
+    护眼绿_数字_浅:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF2F6041'
+    护眼绿_A_浅:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x6EB88C'
+      buttonForegroundColor: '0xFFE9F2F6'
+      pressedButtonForegroundColor: '0xFFE9F2F6'
+      swipeForegroundColor: '0xFFEAEAEA'
+      pressedSwipeForegroundColor: '0xFFEAEAEA'
+      cornerRadius: 10
+      borderColor: '0x01000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 2
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_A_深:
+      buttonBackgroundColor: '0x4D9962'
+      pressedButtonBackgroundColor: '0x2D7246'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF323232'
+      pressedSwipeForegroundColor: '0xFF323232'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF4D9962'
+    护眼绿_数字_深:
+      buttonBackgroundColor: '0x2F6041'
+      pressedButtonBackgroundColor: '0x4D9962'
+      buttonForegroundColor: '0xFF000000'
+      pressedButtonForegroundColor: '0xFF000000'
+      swipeForegroundColor: '0xFF000000'
+      pressedSwipeForegroundColor: '0xFF000000'
+      cornerRadius: 10
+      borderColor: '0x000000'
+      borderSize: 0
+      fontSize: 16
+      swipeFontSize: 8
+      lowerEdgeColor: '0x01000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+      buttonBubbleBackColor: '0xFF2F6041'
