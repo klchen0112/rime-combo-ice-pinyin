@@ -14,11 +14,15 @@ import_tables:
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - cn_dicts/mydict
-  - "cn_dicts/pinyin_simp_moe"
-  - "cn_dicts/pinyin_simp_wiki"
-  - "cn_dicts/pinyin_simp_chengyu"
-  - "cn_dicts/pinyin_simp_gushi"
-  - "cn_dicts/yugioh"
+  - ext_dicts/sogou_popular                #搜狗流行词
+  - ext_dicts/sogou_xibao                  #搜狗细胞词库
+  - ext_dicts/sogou_total_dict.official    #搜狗官方所有类推荐词库（大词库，部署时间较长）
+  - ext_dicts/sogou_total_dict.unofficial  #搜狗非官方推荐所有类词库
+  - ext_dicts/sogou_sijixingzheng          #搜狗词库-四级行政
+  - ext_dicts/baidu_shici                  #百度词库-诗词
+  - ext_dicts/wiki_dict                    #维基百科词库
+  - "ext_dicts/pinyin_simp_moe"
+  - "ext_dicts/yugioh"
 ...
 
 # 按需启用：
