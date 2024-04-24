@@ -4,6 +4,7 @@ patch:
   show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）
   # 以下软件默认英文模式
   app_options:
+
     com.apple.dt.Xcode:
       ascii_mode: true
     com.runningwithcrayons.Alfred:
@@ -98,6 +99,8 @@ patch:
     org.zotero.zotero-beta:
       inline: false
     com.github.wez.wezterm:
+      ascii_mode: true
+    org.alacritty:
       ascii_mode: true
   # 如果想要修改皮肤，直接更改 color_scheme 的值即可
   style:
