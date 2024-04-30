@@ -27,9 +27,9 @@ switches:
   - name: emoji
     states: [💀, 😄]
     reset: 1
-  - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
-    abbrev: [词, 单]
-    states: [正常, 单字]
+  - name: kaomoji
+    states: [ ￣へ￣, (u‿ฺu✿ฺ) ]
+    reset: 1
 engine:
   processors:
     - lua_processor@select_character          # 以词定字
@@ -55,6 +55,7 @@ engine:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@traditionalize # 简繁切换
     - simplifier@emoji # Emoji
+    - simplifier@kaomoji                            # 颜文字
     - uniquifier
 
 chord_composer:
@@ -107,6 +108,11 @@ recognizer:
 emoji:
   option_name: emoji
   opencc_config: emoji.json
+
+# 颜文字
+kaomoji:
+  option_name: kaomoji
+  opencc_config: kaomoji.json
 
 # 简繁切换
 traditionalize:
