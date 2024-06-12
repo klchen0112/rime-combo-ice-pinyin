@@ -114,8 +114,8 @@ patch:
     # keep the deprecated `horizontal` option working for existing users.
     #candidate_list_layout: stacked  # stacked | linear
     # text_orientation: horizontal # horizontal | vertical
-    horizontal: true
     candidate_list_layout: linear
+    text_orientation: horizontal
     inline_preedit: true
     inline_candidate: false
     # space between candidates in stacked layout
@@ -141,7 +141,6 @@ patch:
     mojave_dark:
       name: "沙漠夜／Mojave Dark"
       author: "xiehuc <xiehuc@gmail.com>"
-      horizontal: true
       corner_radius: 5
       hilited_corner_radius: 0
       border_height: 6
@@ -173,7 +172,6 @@ patch:
       hilited_candidate_label_color: 0xa0c98915
       hilited_candidate_text_color: 0xc98915
       hilited_text_color: 0x000000
-      horizontal: true
       name: "简约白／Clean White"
       text_color: 0x808080
 
@@ -207,7 +205,7 @@ patch:
       hilited_text_color: 0x999999 # 高亮拼音 (需要开启内嵌编码)
       candidate_text_color: 0xe9e9ea # 预选项文字颜色
       comment_text_color: 0x999999 # 拼音等提示文字颜色
-      horizontal: true # 水平排列
+
       label_color: 0x999999 # 预选栏编号颜色
 
     win10:
@@ -223,7 +221,6 @@ patch:
       hilited_label_color: 0xffffff # 已选字的数字的颜色
       label_color: 0x888888 # 预选栏编号颜色
       label_format: "%s"
-      horizontal: true # 横排显示
       candidate_format: "%c\u2005%@  " # 候选格式
     system_blue:
       translucency: true
@@ -239,7 +236,7 @@ patch:
       hilited_text_color: 0x999999 # 高亮拼音 (需要开启内嵌编码)
       text_color: 0x424242 # 拼音行文字颜色
       label_color: 0x999999 # 预选栏编号颜色
-      horizontal: true # 水平排列
+
 
     dracula:
       name: "Dracula"
