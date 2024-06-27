@@ -1,306 +1,561 @@
 ---
 name: sogou_popular
-version: "2024.06.09"
+version: "2024.06.23"
 sort: by_weight
 use_preset_vocabulary: false
 ...
 
-青年邓颖超	qing nian deng ying chao	1
-专八成绩	zhuan ba cheng ji	1
-最不后悔	zui bu hou hui	1
-肖战重庆暴走	xiao zhan chong qing bao zou	1
-电影制暴上线	dian ying zhi bao shang xian	1
-微博知识	wei bo zhi shi	1
-赴山海开机	fu shan hai kai ji	1
-高股息	gao gu xi	1
-鸣潮吟霖上线	ming chao yin lin shang xian	1
-七月新番已出	qi yue xin fan yi chu	1
-张雪峰旗袍照	zhang xue feng qi pao zhao	1
-想魂穿坚果	xiang hun chuan jian guo	1
-高考加油时刻	gao kao jia you shi ke	1
-十斤的橘猫	shi jin de ju mao	1
-王倦尽力了	wang juan jin li le	1
-檀健次吐烟	tan jian ci tu yan	1
-微博旅行家	wei bo lv xing jia	1
-六号银像	liu hao yin xiang	1
-祝你乘风而上	zhu ni cheng feng er shang	1
-运猪车侧翻	yun zhu che ce fan	1
-男狐狸	nan hu li	1
-壹决	yi jue	1
-验考场	yan kao chang	1
-芮娜	rui na	1
-星穹铁道椒丘	xing qiong tie dao jiao qiu	1
-梦到高考了	meng dao gao kao le	1
-神奇组织	shen qi zu zhi	1
-种地吧直播	zhong di ba zhi bo	1
-一次高考	yi ci gao kao	1
-徐明浩活动	xu ming hao huo dong	1
-于东来	yu dong lai	1
-嗨放派路透	hai fang pai lu tou	1
-成毅执笔仗剑	cheng yi zhi bi zhang jian	1
-绝意	jue yi	1
-留档期	liu dang qi	1
-夏梦好漂亮	xia meng hao piao liang	1
-高粽	gao zong	1
-一举高粽	yi ju gao zong	1
-中国有约	zhong guo you yue	1
-捏脸码	nie lian ma	1
-张碧晨上海	zhang bi chen shang hai	1
+狙击蝴蝶开机	ju ji hu die kai ji	1
+梦章	meng zhang	1
+吉迪	ji di	1
+最强神探大赛	zui qiang shen tan da sai	1
+网红刘庸复更	wang hong liu yong fu geng	1
+唐纳德萨瑟兰	tang na de sa se lan	1
+增雨	zeng yu	1
+陈妍希周柯宇	chen yan xi zhou ke yu	1
+章昊小声蛐蛐	zhang hao xiao sheng qu qu	1
+众牧宝	zhong mu bao	1
+登陆计划投票	deng lu ji hua tou piao	1
+密客	mi ke	1
+夏至面	xia zhi mian	1
+我抓住了光	wo zhua zhu le guang	1
+刘梦章	liu meng zhang	1
+冬至饺子	dong zhi jiao zi	1
+氛围店	fen wei dian	1
+队伍一	dui wu yi	1
+队伍二	dui wu er	1
+姜萍明日决赛	jiang ping ming ri jue sai	1
+人口紧急状态	ren kou jin ji zhuang tai	1
+乘风五公	cheng feng wu gong	1
+病症证	bing zheng zheng	1
+日本大米涨价	ri ben da mi zhang jia	1
+烟花少年	yan hua shao nian	1
+未造成人员伤亡	wei zao cheng ren yuan shang wang	1
+庸子	yong zi	1
+山野栀子	shan ye zhi zi	1
+伏羲大典	fu xi da dian	1
+钟自然	zhong zi ran	1
+柳条人	liu tiao ren	1
+夏至了	xia zhi le	1
+陆景和	lu jing he	1
+梅瑟莫	mei se mo	1
+亲亲卡	qin qin ka	1
+戚薇手被割伤	qi wei shou bei ge shang	1
+婉宁可怜	wan ning ke lian	1
+恋与深空秦彻	lian yu shen kong qin che	1
+破风妆造	po feng zhuang zao	1
+黎深亲亲卡	li shen qin qin ka	1
+崛起吧涂山璟	jue qi ba tu shan jing	1
+秦彻偷跑	qin che tou pao	1
+秦彻	qin che	1
+古茗员工碎了	gu ming yuan gong sui le	1
+松弛感打工人	song chi gan da gong ren	1
+万人舞蹈	wan ren wu dao	1
+张远真唱说谎	zhang yuan zhen chang shuo huang	1
+白毛红瞳	bai mao hong tong	1
+黎医生	li yi sheng	1
+爱上扬州	ai shang yang zhou	1
+颁奖日程	ban jiang ri cheng	1
+狄浩	di hao	1
+新男主	xin nan zhu	1
+折纸小鸟	zhe zhi xiao niao	1
+夏以昼呢	xia yi zhou ne	1
+赵一博直播	zhao yi bo zhi bo	1
+穿过月亮的旅行	chuan guo yue liang de lv xing	1
+于正他来真的	yu zheng ta lai zhen de	1
+玱玹主场	cang xuan zhu chang	1
+何洁红毯滑倒	he jie hong tan hua dao	1
+代喝	dai he	1
+我偏要去北京	wo pian yao qu bei jing	1
+开分	kai fen	1
+完整访谈文字	wan zheng fang tan wen zi	1
+沈月露肩球衣	shen yue lu jian qiu yi	1
+嘘国王在冬眠	xu guo wang zai dong mian	1
+爱老师	ai lao shi	1
+喵喵牌	miao miao pai	1
+五经普	wu jing pu	1
+下的大吗	xia de da ma	1
+逆水寒手游	ni shui han shou you	1
+茉莉白	mo li bai	1
+沈玉容	shen yu rong	1
+云边有个	yun bian you ge	1
+泳知	yong zhi	1
+饿灵骑士	e ling qi shi	1
+谎言是你的谎言	huang yan shi ni de huang yan	1
+全投	quan tou	1
+战灰	zhan hui	1
+男店员	nan dian yuan	1
+歌手直播	ge shou zhi bo	1
+颜心记开播	yan xin ji kai bo	1
+刘耀文系领带	liu yao wen ji ling dai	1
+海棠升级	hai tang sheng ji	1
+熊猫妈妈	xiong mao ma ma	1
+鸦哥	ya ge	1
+下的不小	xia de bu xiao	1
+大于五个字	da yu wu ge zi	1
+能不能超点	neng bu neng chao dian	1
+广告就在哪	guang gao jiu zai na	1
+那英在哪	na ying zai na	1
+那英忘词	na ying wang ci	1
+张远挑战孙楠	zhang yuan tiao zhan sun nan	1
+鱼塘少主来也	yu tang shao zhu lai ye	1
+柯以敏附体	ke yi min fu ti	1
+香奈美	xiang nai mei	1
+几乎清唱	ji hu qing chang	1
+第五人格赛事	di wu ren ge sai shi	1
+张韶涵演唱会	zhang shao han yan chang hui	1
+观赛愉快	guan sai yu kuai	1
+张远冲榜失败	zhang yuan chong bang shi bai	1
+双影交叠时	shuang ying jiao die shi	1
+你们都配不上我	ni men dou pei bu shang wo	1
+吟游战记	yin you zhan ji	1
+欧洲杯赛程	ou zhou bei sai cheng	1
+黄宣太好听了	huang xuan tai hao ting le	1
+路理	lu li	1
+伐克	fa ke	1
+理解故乡	li jie gu xiang	1
+讨厌故乡	tao yan gu xiang	1
+逃离故乡	tao li gu xiang	1
+星辰大海编曲	xing chen da hai bian qu	1
+黄霄云破音	huang xiao yun po yin	1
+那英第七	na ying di qi	1
+那英竟然第七	na ying jing ran di qi	1
+香缇莫第一	xiang ti mo di yi	1
+汪苏泷看热搜	wang su long kan re sou	1
+张建春	zhang jian chun	1
+谁写的剧本	shui xie de ju ben	1
+泡芙一个	pao fu yi ge	1
+赵露思甜品店	zhao lu si tian pin dian	1
+各平台现状	ge ping tai xian zhuang	1
+那英不至于吧	na ying bu zhi yu ba	1
+细柳提亲花未许	xi liu ti qin hua wei xu	1
+黄金树幽影	huang jin shu you ying	1
+内娱幼师	nei yu you shi	1
+我经济法	wo jing ji fa	1
+我初会	wo chu hui	1
+墨雨云间番外	mo yu yun jian fan wai	1
+顶人	ding ren	1
+歌手歌单	ge shou ge dan	1
+菲常萧张	fei chang xiao zhang	1
+我和谁最配	wo he shui zui pei	1
+肯德基锅包肉	ken de ji guo bao rou	1
 国家金融	guo jia jin rong	1
-王妈复更	wang ma fu geng	1
-尾盘股	wei pan gu	1
-小丰收	xiao feng shou	1
-躯体分离	qu ti fen li	1
-李金柱	li jin zhu	1
-母生单胎	mu sheng dan tai	1
-何浩楠清唱	he hao nan qing chang	1
-赵一博现场	zhao yi bo xian chang	1
-吉祥三保	ji xiang san bao	1
-国足赛前直播	guo zu sai qian zhi bo	1
-国足首发	guo zu shou fa	1
-又没有做错人	you mei you zuo cuo ren	1
-张艺兴扇风舞	zhang yi xing shan feng wu	1
-他只是做错题	ta zhi shi zuo cuo ti	1
-唐尚珺	tang shang jun	1
-乙卷	yi juan	1
-钎九	qian jiu	1
+九珍果汁	jiu zhen guo zhi	1
+倒霉惯了	dao mei guan le	1
+高考生暑假工	gao kao sheng shu jia gong	1
+情绪稳定的人	qing xu wen ding de ren	1
+考古学报考	kao gu xue bao kao	1
+旅行任意门	lv xing ren yi men	1
+精神状态群舞	jing shen zhuang tai qun wu	1
+超能摄影阳阳	chao neng she ying yang yang	1
+成语具象化	cheng yu ju xiang hua	1
+走向破裂	zou xiang po lie	1
+鸣潮今汐	ming chao jin xi	1
+我护资	wo hu zi	1
+谁唱说谎	shui chang shuo huang	1
+白鹿手持剧本	bai lu shou chi ju ben	1
+黎以	li yi	1
+刘浩存逛公园	liu hao cun guang gong yuan	1
+话说夏至	hua shuo xia zhi	1
+流萤篇	liu ying pian	1
+最强售后	zui qiang shou hou	1
+工作不合适自己	gong zuo bu he shi zi ji	1
+坚持干一段时间	jian chi gan yi duan shi jian	1
+王星越台词	wang xing yue tai ci	1
+民代	min dai	1
+叶海洋双胞胎	ye hai yang shuang bao tai	1
+盘前	pan qian	1
+年中美貌小结	nian zhong mei mao xiao jie	1
+抹鼻涕	mo bi ti	1
+吴谨言翻红	wu jin yan fan hong	1
+志愿种草指南	zhi yuan zhong cao zhi nan	1
+专业报考指南	zhuan ye bao kao zhi nan	1
+小城焕日	xiao cheng huan ri	1
+陈妍希综艺	chen yan xi zong yi	1
+无糖茶	wu tang cha	1
+花导	hua dao	1
+九吉星	jiu ji xing	1
+苏更生结过婚	su geng sheng jie guo hun	1
+太想念初恋	tai xiang nian chu lian	1
+旗舰端	qi jian duan	1
+瓜贩	gua fan	1
+卖西瓜	mai xi gua	1
+乐山炸串	le shan zha chuan	1
+马龙的新身份	ma long de xin shen fen	1
+日本女排	ri ben nv pai	1
+应龙号	ying long hao	1
+菈妮	la ni	1
+中方回应	zhong fang hui ying	1
+墨雨云间同人	mo yu yun jian tong ren	1
+陈泽停播	chen ze ting bo	1
+狐狸和乌鸦	hu li he wu ya	1
+外语专业报考	wai yu zhuan ye bao kao	1
+丁霞状态	ding xia zhuang tai	1
+张常宁采访	zhang chang ning cai fang	1
+我的婚纱造型	wo de hun sha zao xing	1
+宋亚轩汇演	song ya xuan hui yan	1
+暴雨后的桂林	bao yu hou de gui lin	1
+极速端	ji su duan	1
+刘亦菲裸背	liu yi fei luo bei	1
+薛之谦生日场	xue zhi qian sheng ri chang	1
+巨蟹座生日	ju xie zuo sheng ri	1
+斯洛文	si luo wen	1
+女店员遇难	nv dian yuan yu nan	1
+最近有点晕鸡	zui jin you dian yun ji	1
+大驱	da qu	1
+扣息	kou xi	1
+林俊杰贵阳	lin jun jie gui yang	1
+马玉灵退团	ma yu ling tui tuan	1
+郑益昕	zheng yi xin	1
+尹净汉亲话筒	yin jing han qin hua tong	1
+张杰鸟巢场	zhang jie niao chao chang	1
+束脩之礼	shu xiu zhi li	1
+千万工程	qian wan gong cheng	1
+自然的仙境	zi ran de xian jing	1
+生日场	sheng ri chang	1
+活两集	huo liang ji	1
+浪潮音乐大赏	lang chao yin yue da shang	1
+长相思剧本	chang xiang si ju ben	1
+穿花	chuan hua	1
+夏至将至	xia zhi jiang zhi	1
+南方暴雨	nan fang bao yu	1
+迷你大冒险	mi ni da mao xian	1
+谯国夫人	qiao guo fu ren	1
+血糖风险评估	xue tang feng xian ping gu	1
+惊心妒怨	jing xin du yuan	1
+黄山洪水	huang shan hong shui	1
+鼠体描边大师	shu ti miao bian da shi	1
+比亚迪汉	bi ya di han	1
+夏至吃什么	xia zhi chi shen me	1
+今日夏至	jin ri xia zhi	1
+意大利乌龙球	yi da li wu long qiu	1
+夏至吃哪种面	xia zhi chi na zhong mian	1
+航拍桂林洪水	hang pai gui lin hong shui	1
+金晨生图	jin chen sheng tu	1
+赵一博新歌	zhao yi bo xin ge	1
+微博尝鲜计划	wei bo chang xian ji hua	1
+面具侠姆巴佩	mian ju xia mu ba pei	1
+毛晓彤水母伞	mao xiao tong shui mu san	1
+算了不拍了	suan le bu pai le	1
+夏至快乐	xia zhi kuai le	1
+养老金融	yang lao jin rong	1
+双界灵兔	shuang jie ling tu	1
+梅西状态	mei xi zhuang tai	1
+默杀	mo sha	1
+学院正在调查	xue yuan zheng zai diao cha	1
+梅西助攻	mei xi zhu gong	1
+电影默杀定档	dian ying mo sha ding dang	1
+青春盛会	qing chun sheng hui	1
+沈学士	shen xue shi	1
+余琦	yu qi	1
+亚太空间	ya tai kong jian	1
+徐利民	xu li min	1
+食人菌	shi ren jun	1
+差分宇宙	cha fen yu zhou	1
+都没歪	dou mei wai	1
+末日幻影	mo ri huan ying	1
+账账	zhang zhang	1
+漓江郡府	li jiang jun fu	1
+高考出分	gao kao chu fen	1
+副本即将崩塌	fu ben ji jiang beng ta	1
+击破特攻	ji po te gong	1
+全歪	quan wai	1
+四命	si ming	1
+超级破	chao ji po	1
+点燃大海	dian ran da hai	1
+几命	ji ming	1
+黑神话闭门测试	hei shen hua bi men ce shi	1
+几加几	ji jia ji	1
+癫火	dian huo	1
+翁瓦克	weng wa ke	1
+太平天书	tai ping tian shu	1
+森贝儿	sen bei er	1
+巴尼亚	ba ni ya	1
+月余人节	yue yu ren jie	1
+冲浪暂停	chong lang zan ting	1
+给我接回王妃	gei wo jie hui wang fei	1
+死守城门	si shou cheng men	1
+谢夫乔	xie fu qiao	1
+晨露花红风满袖	chen lu hua hong feng man xiu	1
+星穹铁道流萤	xing qiong tie dao liu ying	1
+尹净汉饭拍	yin jing han fan pai	1
+之了课堂	zhi le ke tang	1
+半夜出成绩	ban ye chu cheng ji	1
+普京抵达越南	pu jing di da yue nan	1
+火车站被淹	huo che zhan bei yan	1
+格瓦	ge wa	1
+负平	fu ping	1
+之了	zhi le	1
+诺伊尔零封	nuo yi er ling feng	1
+笨手机	ben shou ji	1
+淹积水	yan ji shui	1
+和气一号	he qi yi hao	1
+方称	fang cheng	1
+首店	shou dian	1
+宝宝睡姿大赏	bao bao shui zi da shang	1
+桂林洪水	gui lin hong shui	1
+王鹤棣啾咪	wang he di jiu mi	1
+岚图	lan tu	1
+六号银像	liu hao yin xiang	1
+临沂保	lin yi bao	1
+壳中萤火	ke zhong ying huo	1
+数赛	shu sai	1
+大摇号	da yao hao	1
+乘船而去	cheng chuan er qu	1
+戈德曼审判	ge de man shen pan	1
+继承厄运	ji cheng e yun	1
+陨落之星	yun luo zhi xing	1
+法式火锅	fa shi huo guo	1
+方法之书	fang fa zhi shu	1
+琳达想吃鸡肉	lin da xiang chi ji rou	1
+使馆车	shi guan che	1
+车路云	che lu yun	1
+终测	zhong ce	1
+仲夏萤火之约	zhong xia ying huo zhi yue	1
+送纸巾	song zhi jin	1
+傅家明	fu jia ming	1
+逆检	ni jian	1
+逆转检事	ni zhuan jian shi	1
+居莱尔	ju lai er	1
+开始推理吧	kai shi tui li ba	1
+古尔邦节快乐	gu er bang jie kuai le	1
+祛魅	qu mei	1
+海关战线	hai guan zhan xian	1
+金小妹	jin xiao mei	1
+惊喜红包	jing xi hong bao	1
+青花冷	qing hua leng	1
+十剪纸	shi jian zhi	1
+绝症哥	jue zheng ge	1
+乐考	le kao	1
+开心夜	kai xin ye	1
+蒙格	meng ge	1
+情热	qing re	1
+净汉	jing han	1
+金庸武侠世界	jin yong wu xia shi jie	1
+陈玉祥	chen yu xiang	1
+爆冷了	bao leng le	1
+后两场	hou liang chang	1
+刘回	liu hui	1
+特罗萨德	te luo sa de	1
+电子专	dian zi zhuan	1
+济南车	ji nan che	1
+梗指南	geng zhi nan	1
+白白叶叶	bai bai ye ye	1
+关关难过关关过	guan guan nan guo guan guan guo	1
+年番	nian fan	1
+欢迎来到我身边	huan ying lai dao wo shen bian	1
+深中通道	shen zhong tong dao	1
+雪憨憨	xue han han	1
+韦格霍斯特	wei ge huo si te	1
+弗林蓬	fu lin peng	1
+音驹	yin ju	1
+也子	ye zi	1
+乌野	wu ye	1
+写译	xie yi	1
+观影团	guan ying tuan	1
+抛瓦	pao wa	1
+已老实求放过	yi lao shi qiu fang guo	1
+风仔	feng zai	1
+仁花	ren hua	1
+城市捉迷藏	cheng shi zhuo mi cang	1
+看欧洲杯	kan ou zhou bei	1
+索默	suo mo	1
+瓦尔加斯	wa er jia si	1
+亚马尔	ya ma er	1
+坐滩	zuo tan	1
+异人之下	yi ren zhi xia	1
+富平街	fu ping jie	1
+格拉默	ge la mo	1
+日夜江河	ri ye jiang he	1
+活侠传	huo xia chuan	1
+涟水中专	lian shui zhong zhuan	1
+二金	er jin	1
+蚀日者	shi ri zhe	1
+二限	er xian	1
+冷龙峰	leng long feng	1
+永不关服	yong bu guan fu	1
+抗闪	kang shan	1
+方协文	fang xie wen	1
+入侵日	ru qin ri	1
+一片绿洲	yi pian lv zhou	1
+维尔茨	wei er ci	1
+巴黎深渊	ba li shen yuan	1
+我们一起摇太阳	wo men yi qi yao tai yang	1
+异星战境	yi xing zhan jing	1
+凶兆前传	xiong zhao qian zhuan	1
+五比一	wu bi yi	1
+莱夫利	lai fu li	1
+四战	si zhan	1
+岛屿少年	dao yu shao nian	1
+暗河传	an he chuan	1
+妖护使	yao hu shi	1
+楼间楼	lou jian lou	1
+老鲤	lao li	1
+澄闪	cheng shan	1
+苏暮雨	su mu yu	1
+武学助手	wu xue zhu shou	1
+舞乐	wu le	1
+空悬	kong xuan	1
+经典常谈	jing dian chang tan	1
+她的山	ta de shan	1
+陌路惊魂	mo lu jing hun	1
+小折叠	xiao zhe die	1
+下拉如	xia la ru	1
+孙丞潇	sun cheng xiao	1
+三谋	san mou	1
+热的我	re de wo	1
+就凉快了	jiu liang kuai le	1
+要下大雨了	yao xia da yu le	1
+嘎嘎热	ga ga re	1
+海天雄鹰	hai tian xiong ying	1
+束状纹理	shu zhuang wen li	1
+专项附加扣除	zhuan xiang fu jia kou chu	1
+福猪猪	fu zhu zhu	1
+隐世修所	yin shi xiu suo	1
+黄鸡大笑	huang ji da xiao	1
+旱死了	han si le	1
+神树坪	shen shu ping	1
+港中深	gang zhong shen	1
+我要上岸	wo yao shang an	1
+手机爹	shou ji die	1
+千切	qian qie	1
+狗卷	gou juan	1
+颜心记	yan xin ji	1
+黄亦玫	huang yi mei	1
+特训岛	te xun dao	1
+李炮	li pao	1
+影日	ying ri	1
+北队	bei dui	1
+心患	xin huan	1
+我服了爸爸	wo fu le ba ba	1
+零食抱佛脚	ling shi bao fo jiao	1
+双四	shuang si	1
+于北辰	yu bei chen	1
+上黑	shang hei	1
+庄国栋	zhuang guo dong	1
+玲王	ling wang	1
+大顺大财大吉祥	da shun da cai da ji xiang	1
+嗯啾嘟	en jiu du	1
+甲卷	jia juan	1
+少考	shao kao	1
+新一卷	xin yi juan	1
+合卷	he juan	1
+你我皆是黑马	ni wo jie shi hei ma	1
+星光卡	xing guang ka	1
+难算	nan suan	1
+鸣式	ming shi	1
+就放假啦	jiu fang jia la	1
+已过万重山	yi guo wan chong shan	1
+已畏惧	yi wei ju	1
+爸爸是外星人	ba ba shi wai xing ren	1
+没有颜色的关系	mei you yan se de guan xi	1
+来日皆方长	lai ri jie fang chang	1
+游科	you ke	1
+倒余额	dao yu e	1
+一耽	yi dan	1
+魂类	hun lei	1
+高考结束了	gao kao jie shu le	1
+肃国公	su guo gong	1
+萧蘅	xiao heng	1
+移形	yi xing	1
+和你做朋友呢	he ni zuo peng you ne	1
+破抵	po di	1
+漫蛙	man wa	1
+初雅	chu ya	1
+镜玄	jing xuan	1
+鸡爪流	ji zhua liu	1
+合养	he yang	1
+极禹	ji yu	1
+青年邓颖超	qing nian deng ying chao	1
+壹决	yi jue	1
+芮娜	rui na	1
+捏脸码	nie lian ma	1
 老高考	lao gao kao	1
-医学科普	yi xue ke pu	1
-张绍刚主持	zhang shao gang zhu chi	1
-如何评价鸣潮	ru he ping jia ming chao	1
 星声	xing sheng	1
-利知	li zhi	1
-杰伦治腿	jie lun zhi tui	1
-种地吧母带	zhong di ba mu dai	1
-赵小童披风	zhao xiao tong pi feng	1
-鹭卓舞台	lu zhuo wu tai	1
-一起来跳鹦舞	yi qi lai tiao ying wu	1
-毕业季漫画	bi ye ji man hua	1
-弟弟的荣誉	di di de rong yu	1
-哥哥的脸面	ge ge de lian mian	1
-国足生死战	guo zu sheng si zhan	1
-国足直播	guo zu zhi bo	1
-内心强大的人	nei xin qiang da de ren	1
-这粽子	zhe zong zi	1
-国足落后泰国	guo zu luo hou tai guo	1
-韦世豪任意球	wei shi hao ren yi qiu	1
-联盟不朽阿狸	lian meng bu xiu a li	1
-武磊停赛	wu lei ting sai	1
-我的高考记忆	wo de gao kao ji yi	1
-卓沅直拍	zhuo yuan zhi pai	1
-王大雷怒吼	wang da lei nu hou	1
-父爱粽如山	fu ai zong ru shan	1
-金榜题名变装	jin bang ti ming bian zhuang	1
-孙继海急了	sun ji hai ji le	1
-费南多失点	fei nan duo shi dian	1
-国足扳平泰国	guo zu ban ping tai guo	1
-要你评价	yao ni ping jia	1
-陈小舟	chen xiao zhou	1
-点球不进	dian qiu bu jin	1
-拜合拉木	bai he la mu	1
-你紧张吗	ni jin zhang ma	1
 十思疏	shi si shu	1
-那年我高考	na nian wo gao kao	1
-刘些宁上桌了	liu xie ning shang zhuo le	1
-眼线哥	yan xian ge	1
-圣母落泪仿妆	sheng mu luo lei fang zhuang	1
-武磊场下表情	wu lei chang xia biao qing	1
-转专业自由	zhuan zhuan ye zi you	1
 神秘友友	shen mi you you	1
 狗阵	gou zhen	1
-徐璐下衣失踪	xu lu xia yi shi zong	1
-领孔庙祝福	ling kong miao zhu fu	1
-得高考好运	de gao kao hao yun	1
-号站台	hao zhan tai	1
-与光同行	yu guang tong hang	1
-家庭调情	jia ting tiao qing	1
-端午诵经典	duan wu song jing dian	1
-高考加油图片	gao kao jia you tu pian	1
-质效	zhi xiao	1
-高考第一天	gao kao di yi tian	1
-蒋圣龙	jiang sheng long	1
-负平	fu ping	1
-踢平	ti ping	1
 少熙	shao xi	1
-人类灭绝	ren lei mie jue	1
-王一博飞巴黎	wang yi bo fei ba li	1
-人生三部曲	ren sheng san bu qu	1
-汪俊熙	wang jun xi	1
-乐明药业	le ming yao ye	1
-直击高考现场	zhi ji gao kao xian chang	1
-扫黑决不放弃	sao hei jue bu fang qi	1
-惠尔智能	hui er zhi neng	1
-高考铃声响起	gao kao ling sheng xiang qi	1
-高考图片	gao kao tu pian	1
-口水强迫症	kou shui qiang po zheng	1
-我可是狠人	wo ke shi hen ren	1
-高考去了	gao kao qu le	1
-小众粽子大赏	xiao zhong zong zi da shang	1
-城市乡巴鼠	cheng shi xiang ba shu	1
-反战败	fan zhan bai	1
-波神复出	bo shen fu chu	1
-张朝阳的物理课	zhang chao yang de wu li ke	1
-波神超神了	bo shen chao shen le	1
-黑河哈拉少	hei he ha la shao	1
 如果我	ru guo wo	1
-正虹	zheng hong	1
-时雨天司	shi yu tian si	1
-三鹰	san ying	1
-购房无理由退定	gou fang wu li you tui ding	1
 戴因	dai yin	1
 云璃	yun li	1
 飞霄	fei xiao	1
-裁叶	cai ye	1
 生命之契	sheng ming zhi qi	1
-带彩球的帐篷	dai cai qiu de zhang peng	1
-探寻外太空生命	tan xun wai tai kong sheng ming	1
-自然的仙境	zi ran de xian jing	1
 灵悦币	ling yue bi	1
 新深渊	xin shen yuan	1
-逆水寒手游	ni shui han shou you	1
-数据造假	shu ju zao jia	1
 制暴	zhi bao	1
 鸿福	hong fu	1
-年七	nian qi	1
 小提	xiao ti	1
-李星玮	li xing wei	1
 网感	wang gan	1
 无职	wu zhi	1
 禾伙人	he huo ren	1
 世界计划	shi jie ji hua	1
 九省	jiu sheng	1
 九省联考	jiu sheng lian kao	1
-超新星名单	chao xin xing ming dan	1
-恢复一代	hui fu yi dai	1
-星际客机	xing ji ke ji	1
-民族眼中国美	min zu yan zhong guo mei	1
-职场松弛感	zhi chang song chi gan	1
-外教的分趾鞋	wai jiao de fen zhi xie	1
-空刻	kong ke	1
 高考上岸	gao kao shang an	1
-永远活在美梦里	yong yuan huo zai mei meng li	1
-明天就高考了	ming tian jiu gao kao le	1
-英仕健康	ying shi jian kang	1
-祝福高考	zhu fu gao kao	1
-到东阿过端午	dao dong e guo duan wu	1
-加油高考	jia you gao kao	1
-白鹿说没受伤	bai lu shuo mei shou shang	1
-追光的你	zhui guang de ni	1
-天生爱豆圣体	tian sheng ai dou sheng ti	1
-全光塑	quan guang su	1
 习思想	xi si xiang	1
-离伤记	li shang ji	1
-孙夏铃	sun xia ling	1
-抗战中的文艺	kang zhan zhong de wen yi	1
 姜梨	jiang li	1
-高占喜	gao zhan xi	1
 已老实	yi lao shi	1
-金猪玉叶	jin zhu yu ye	1
-复仇爽剧	fu chou shuang ju	1
 爹咪	die mi	1
-越看越奇怪	yue kan yue qi guai	1
 萤火突击	ying huo tu ji	1
 人魅	ren mei	1
 幻星	huan xing	1
 夏沃蕾	xia wo lei	1
-园费	yuan fei	1
 沈泉锐	shen quan rui	1
 兔男	tu nan	1
 封训	feng xun	1
 美国女人	mei guo nv ren	1
-十六声	shi liu sheng	1
-简篇	jian pian	1
 享界	xiang jie	1
 泽禹	ze yu	1
-雨天雨天	yu tian yu tian	1
 来福大酒店	lai fu da jiu dian	1
 超世界	chao shi jie	1
-不祝我	bu zhu wo	1
-星际圈	xing ji quan	1
 三队长	san dui zhang	1
 石宇奇	shi yu qi	1
 松雀	song que	1
-上海大师赛	shang hai da shi sai	1
 日落之城	ri luo zhi cheng	1
-嫦娥六号	chang e liu hao	1
-我生下来就是个	wo sheng xia lai jiu shi ge	1
-欧冠之王	ou guan zhi wang	1
-坐滩	zuo tan	1
 嫡嫁千金	di jia qian jin	1
 成分复杂	cheng fen fu za	1
-光猎	guang lie	1
 赛索斯	sai suo si	1
-客厅狂欢	ke ting kuang huan	1
 歌蕾蒂娅	ge lei di ya	1
-银河左岸	yin he zuo an	1
-法罗女士	fa luo nv shi	1
-电玩套	dian wan tao	1
 漫长的季节	man chang de ji jie	1
 单挂	dan gua	1
-盘前	pan qian	1
-蓝闪	lan shan	1
 密神	mi shen	1
 机器人之梦	ji qi ren zhi meng	1
-沪圈	hu quan	1
 叶流云	ye liu yun	1
 凯茜娅	kai qian ya	1
-沈图南	shen tu nan	1
-防长	fang chang	1
-饭张力	fan zhang li	1
-河马君	he ma jun	1
-气球贷	qi qiu dai	1
-万物契约	wan wu qi yue	1
-商业航天	shang ye hang tian	1
 有个小卖部	you ge xiao mai bu	1
 刹停	sha ting	1
-莱夫利	lai fu li	1
 快乐老友记	kuai le lao you ji	1
-漫粉	man fen	1
 银香囊	yin xiang nang	1
 高端购物	gao duan gou wu	1
 蛋不肉	dan bu rou	1
-双城传说	shuang cheng chuan shuo	1
-取机	qu ji	1
 黄朔	huang shuo	1
 画之灵	hua zhi ling	1
 三月兽	san yue shou	1
-福耀科技大学	fu yao ke ji da xue	1
 领结猫	ling jie mao	1
-打工人的	da gong ren de	1
 司美格鲁肽	si mei ge lu tai	1
 万粉	wan fen	1
 辅瞄	fu miao	1
 李狗剩	li gou sheng	1
-爹例外	die li wai	1
 候补了	hou bu le	1
-清宫辞	qing gong ci	1
 无妄者	wu wang zhe	1
-我就是风	wo jiu shi feng	1
-费介	fei jie	1
 巴勒斯坦国旗	ba le si tan guo qi	1
 囧次元	jiong ci yuan	1
-家族款	jia zu kuan	1
 莞莞类卿	guan guan lei qing	1
-临近高考	lin jin gao kao	1
-贺宗纬	he zong wei	1
 班味	ban wei	1
 极萌	ji meng	1
 我罩的	wo zhao de	1
 迷妄之塔	mi wang zhi ta	1
-洪竹	hong zhu	1
 虚构叙事	xu gou xu shi	1
 加菲猫家族	jia fei mao jia zu	1
 七老板	qi lao ban	1
 若月亮	ruo yue liang	1
 泳者之心	yong zhe zhi xin	1
-月飞	yue fei	1
-黏土特效	nian tu te xiao	1
 今汐	jin xi	1
 数据坞	shu ju wu	1
 乙骨忧太	yi gu you tai	1
 丹瑾	dan jin	1
 原神的	yuan shen de	1
-蓝原	lan yuan	1
 饼干人	bing gan ren	1
 五夏	wu xia	1
 云玩	yun wan	1
@@ -308,7 +563,6 @@ use_preset_vocabulary: false
 钩索	gou suo	1
 咒回	zhou hui	1
 狂暴女神	kuang bao nv shen	1
-日夜江河	ri ye jiang he	1
 伏黑	fu hei	1
 苦情树	ku qing shu	1
 绑玉	bang yu	1
@@ -317,21 +571,14 @@ use_preset_vocabulary: false
 洗烘套装	xi hong tao zhuang	1
 固卡	gu ka	1
 奇迹行者	qi ji xing zhe	1
-莫加多尔	mo jia duo er	1
 鲜朗	xian lang	1
 降的	jiang de	1
 智界	zhi jie	1
 乌梅汤	wu mei tang	1
-微风岛屿	wei feng dao yu	1
 百乔	bai qiao	1
 墨雨云间	mo yu yun jian	1
 最离谱的	zui li pu de	1
-不羁联盟	bu ji lian meng	1
 马立奥	ma li ao	1
-冰下的鱼	bing xia de yu	1
-乜代宗师	mie dai zong shi	1
-赖御史	lai yu shi	1
-李凯尔	li kai er	1
 鉴心	jian xin	1
 青草蛋糕	qing cao dan gao	1
 鬼狙	gui ju	1
@@ -342,7 +589,6 @@ use_preset_vocabulary: false
 北夜	bei ye	1
 猫雷	mao lei	1
 阿甘左	a gan zuo	1
-橙戒	cheng jie	1
 耐摔王	nai shuai wang	1
 好多花	hao duo hua	1
 廖朵朵	liao duo duo	1
@@ -406,7 +652,6 @@ use_preset_vocabulary: false
 海来阿木	hai lai a mu	1
 国国	guo guo	1
 四斋	si zhai	1
-免单券	mian dan quan	1
 连麻	lian ma	1
 太有实力啦	tai you shi li la	1
 不鸡丢	bu ji diu	1
@@ -435,20 +680,15 @@ use_preset_vocabulary: false
 小芒	xiao mang	1
 开看	kai kan	1
 烤苕皮	kao shao pi	1
-课服	ke fu	1
 茶杯狐	cha bei hu	1
 桑文	sang wen	1
 官谷	guan gu	1
 再会长江	zai hui chang jiang	1
 母亲的直觉	mu qin de zhi jue	1
 抱月楼	bao yue lou	1
-真心很贵	zhen xin hen gui	1
 歌查德	ge cha de	1
-下校	xia xiao	1
-鬼秤	gui cheng	1
 晚安大小姐	wan an da xiao jie	1
 赴山海	fu shan hai	1
-真晒	zhen shai	1
 恋爱兄妹	lian ai xiong mei	1
 徐欧	xu ou	1
 真逆天	zhen ni tian	1
@@ -477,7 +717,6 @@ use_preset_vocabulary: false
 代播	dai bo	1
 直面屏	zhi mian ping	1
 青柑普洱	qing gan pu er	1
-不含税运	bu han shui yun	1
 验券	yan quan	1
 找搭子	zhao da zi	1
 叠戴	die dai	1
@@ -485,12 +724,10 @@ use_preset_vocabulary: false
 千粉	qian fen	1
 主纱	zhu sha	1
 辣评	la ping	1
-二次包装	er ci bao zhuang	1
 风吹半夏	feng chui ban xia	1
 没超时	mei chao shi	1
 乘区	cheng qu	1
 赈灾粮	zhen zai liang	1
-答辩记录表	da bian ji lu biao	1
 假千金	jia qian jin	1
 不泡茶	bu pao cha	1
 面刀	mian dao	1
@@ -512,7 +749,6 @@ use_preset_vocabulary: false
 仿赛	fang sai	1
 落匪	luo fei	1
 试纱	shi sha	1
-宝宝收工	bao bao shou gong	1
 魏轻	wei qing	1
 桂哥	gui ge	1
 齐夏	qi xia	1
@@ -523,7 +759,6 @@ use_preset_vocabulary: false
 我已知晓	wo yi zhi xiao	1
 米利欧	mi li ou	1
 半扎	ban zha	1
-我在摸鱼	wo zai mo yu	1
 累麻了	lei ma le	1
 陪拍	pei pai	1
 避雷了	bi lei le	1
@@ -534,10 +769,8 @@ use_preset_vocabulary: false
 添可	tian ke	1
 优萃	you cui	1
 豆沙了	dou sha le	1
-二辩了	er bian le	1
 回款了	hui kuan le	1
 有逾期	you yu qi	1
-建店	jian dian	1
 潘宏	pan hong	1
 东梯	dong ti	1
 纽强	niu qiang	1
@@ -591,7 +824,6 @@ use_preset_vocabulary: false
 黑金帮	hei jin bang	1
 邀评	yao ping	1
 油混	you hun	1
-核心床	he xin chuang	1
 旅游搭子	lv you da zi	1
 榴莲的	liu lian de	1
 耐造	nai zao	1
@@ -652,7 +884,6 @@ use_preset_vocabulary: false
 回诊	hui zhen	1
 落地醒	luo di xing	1
 杏子灰	xing zi hui	1
-烟证	yan zheng	1
 异网	yi wang	1
 精板	jing ban	1
 海棠角	hai tang jiao	1
@@ -677,7 +908,6 @@ use_preset_vocabulary: false
 很出片	hen chu pian	1
 我跑路了	wo pao lu le	1
 扣地	kou di	1
-精车	jing che	1
 嘎嘎帅	ga ga shuai	1
 白人饭	bai ren fan	1
 贼离谱	zei li pu	1
@@ -699,7 +929,6 @@ use_preset_vocabulary: false
 白利群	bai li qun	1
 招吗	zhao ma	1
 娇润泉	jiao run quan	1
-梦幻帘	meng huan lian	1
 睡懵了	shui meng le	1
 帮我拍一下	bang wo pai yi xia	1
 卤货	lu huo	1
@@ -712,7 +941,6 @@ use_preset_vocabulary: false
 扫这个码	sao zhe ge ma	1
 发小红书	fa xiao hong shu	1
 独户	du hu	1
-沈璃	shen li	1
 包过的	bao guo de	1
 二趟	er tang	1
 链接地	lian jie di	1
@@ -732,7 +960,6 @@ use_preset_vocabulary: false
 绫华	ling hua	1
 唔姆	wu mu	1
 蛇兜	she dou	1
-到教室啦	dao jiao shi la	1
 娜维娅	na wei ya	1
 推理吧	tui li ba	1
 芋圆葡萄	yu yuan pu tao	1
@@ -741,7 +968,6 @@ use_preset_vocabulary: false
 离别开出花	li bie kai chu hua	1
 源工重镇	yuan gong zhong zhen	1
 尼菈	ni la	1
-阿如那	a ru na	1
 七圣召唤	qi sheng zhao huan	1
 边狱巴士	bian yu ba shi	1
 卓耀	zhuo yao	1
@@ -757,11 +983,9 @@ use_preset_vocabulary: false
 罗言	luo yan	1
 异画师	yi hua shi	1
 玖福记	jiu fu ji	1
-英灵神殿	ying ling shen dian	1
 任志达	ren zhi da	1
 佳和城	jia he cheng	1
 时空之影	shi kong zhi ying	1
-刘俊谦	liu jun qian	1
 木偶师	mu ou shi	1
 夏萧因	xia xiao yin	1
 顾时夜	gu shi ye	1
@@ -794,8 +1018,6 @@ use_preset_vocabulary: false
 打压式	da ya shi	1
 不离职	bu li zhi	1
 大差不大	da cha bu da	1
-脆皮大学生	cui pi da xue sheng	1
-拉面范	la mian fan	1
 撒娇八连	sa jiao ba lian	1
 积食了	ji shi le	1
 票星球	piao xing qiu	1
@@ -820,14 +1042,12 @@ use_preset_vocabulary: false
 崔十八	cui shi ba	1
 互赏	hu shang	1
 希格雯	xi ge wen	1
-内耗的	nei hao de	1
 不学的	bu xue de	1
 填线	tian xian	1
 整破防	zheng po fang	1
 写小作文	xie xiao zuo wen	1
 牛脾肽	niu pi tai	1
 晾完了	liang wan le	1
-租电池	zu dian chi	1
 卖榴莲	mai liu lian	1
 捷尼赛思	jie ni sai si	1
 可爱鼠了	ke ai shu le	1
@@ -837,24 +1057,20 @@ use_preset_vocabulary: false
 保姆级	bao mu ji	1
 缓一天	huan yi tian	1
 推卡	tui ka	1
-挪完	nuo wan	1
 迟不了	chi bu liao	1
 困晕了	kun yun le	1
 互互	hu hu	1
 钝感	dun gan	1
 揍哭	zou ku	1
-练的好	lian de hao	1
 起不来一点	qi bu lai yi dian	1
 换乘了	huan cheng le	1
 到的早	dao de zao	1
 模版	mo ban	1
-转编	zhuan bian	1
 韩小圈	han xiao quan	1
 困晕	kun yun	1
 我困得要死	wo kun de yao si	1
 副套	fu tao	1
 可议价	ke yi jia	1
-一个方	yi ge fang	1
 暑托	shu tuo	1
 扎完了	zha wan le	1
 起来的早	qi lai de zao	1
@@ -867,7 +1083,6 @@ use_preset_vocabulary: false
 精粤	jing yue	1
 桑延	sang yan	1
 不置换	bu zhi huan	1
-人人信	ren ren xin	1
 离谱不	li pu bu	1
 阿其那	a qi na	1
 有医保	you yi bao	1
@@ -878,7 +1093,6 @@ use_preset_vocabulary: false
 油电混	you dian hun	1
 河头老街	he tou lao jie	1
 曾婉之	ceng wan zhi	1
-时效内	shi xiao nei	1
 清出去	qing chu qu	1
 热鼠	re shu	1
 焦虑型	jiao lv xing	1
@@ -900,7 +1114,6 @@ use_preset_vocabulary: false
 超然楼	chao ran lou	1
 已退房	yi tui fang	1
 困飞了	kun fei le	1
-五一的	wu yi de	1
 自愿赠与	zi yuan zeng yu	1
 宛禾	wan he	1
 先活着	xian huo zhe	1
@@ -912,18 +1125,15 @@ use_preset_vocabulary: false
 自己调	zi ji tiao	1
 都取了	dou qu le	1
 迷之操作	mi zhi cao zuo	1
-啥车况	sha che kuang	1
 白云站	bai yun zhan	1
 独珍	du zhen	1
 剑梦	jian meng	1
-双逆	shuang ni	1
 下午喝	xia wu he	1
 同碗福	tong wan fu	1
 三块冰	san kuai bing	1
 卖车的	mai che de	1
 合作码	he zuo ma	1
 小手柄	xiao shou bing	1
-劳动实践	lao dong shi jian	1
 紫盖	zi gai	1
 咋解决的	za jie jue de	1
 不踩坑	bu cai keng	1
@@ -932,7 +1142,6 @@ use_preset_vocabulary: false
 查的严	cha de yan	1
 哪几款	na ji kuan	1
 百炼英雄	bai lian ying xiong	1
-登记好	deng ji hao	1
 沙男	sha nan	1
 过加成	guo jia cheng	1
 金豆芽	jin dou ya	1
@@ -944,12 +1153,9 @@ use_preset_vocabulary: false
 茶粹	cha cui	1
 祐禾	you he	1
 威飒	wei sa	1
-绿毛球	lv mao qiu	1
 男摄	nan she	1
 拐求	guai qiu	1
 中古店	zhong gu dian	1
-小鹿蓝蓝	xiao lu lan lan	1
-电池阀	dian chi fa	1
 河野华	he ye hua	1
 曲娘	qu niang	1
 吟霖	yin lin	1
@@ -960,22 +1166,18 @@ use_preset_vocabulary: false
 失温	shi wen	1
 我不李姐	wo bu li jie	1
 加金币	jia jin bi	1
-医保外用药	yi bao wai yong yao	1
 冒大仙	mao da xian	1
 海岱楼	hai dai lou	1
 已调	yi diao	1
 车币	che bi	1
 寻道大千	xun dao da qian	1
 伪人	wei ren	1
-正丹	zheng dan	1
 朵莉亚	duo li ya	1
 小宝小宝	xiao bao xiao bao	1
-本内	ben nei	1
 向僵尸开炮	xiang jiang shi kai pao	1
 清补凉	qing bu liang	1
 烦炸	fan zha	1
 悦也	yue ye	1
-小小港湾	xiao xiao gang wan	1
 水兵月	shui bing yue	1
 我同门	wo tong men	1
 一但	yi dan	1
@@ -985,8 +1187,6 @@ use_preset_vocabulary: false
 藏海传	cang hai chuan	1
 霸王茶姬口令	ba wang cha ji kou ling	1
 麻妃	ma fei	1
-噬血芭蕾	shi xue ba lei	1
-岗一	gang yi	1
 笔面	bi mian	1
 天闪	tian shan	1
 搜剧	sou ju	1
@@ -1021,12 +1221,9 @@ use_preset_vocabulary: false
 宝了个贝	bao le ge bei	1
 楠火锅	nan huo guo	1
 暴击卡	bao ji ka	1
-巡海游侠	xun hai you xia	1
-夜族	ye zu	1
 香缇莫	xiang ti mo	1
 周依然	zhou yi ran	1
 击破队	ji po dui	1
-之了	zhi le	1
 筋膜刀	jin mo dao	1
 黄油小熊	huang you xiao xiong	1
 烤盘饭	kao pan fan	1
@@ -1045,7 +1242,6 @@ use_preset_vocabulary: false
 波刚	bo gang	1
 这么卷	zhe me juan	1
 真下头	zhen xia tou	1
-星天外	xing tian wai	1
 克拉盘	ke la pan	1
 许府牛	xu fu niu	1
 团播	tuan bo	1
@@ -1057,7 +1253,6 @@ use_preset_vocabulary: false
 笑鼠	xiao shu	1
 妹宝	mei bao	1
 晚安宝	wan an bao	1
-接崽	jie zai	1
 量大管饱	liang da guan bao	1
 冰豆花	bing dou hua	1
 现眼包	xian yan bao	1
@@ -1080,8 +1275,6 @@ use_preset_vocabulary: false
 晚安安安	wan an an an	1
 尹净汉	yin jing han	1
 紫狗	zi gou	1
-宋惜惜	song xi xi	1
-数币	shu bi	1
 放纵日	fang zong ri	1
 桃式	tao shi	1
 技攻	ji gong	1
@@ -1113,7 +1306,6 @@ use_preset_vocabulary: false
 跟练	gen lian	1
 抬杆	tai gan	1
 场观	chang guan	1
-党纪学习	dang ji xue xi	1
 无语子	wu yu zi	1
 破韧	po ren	1
 叶瑄	ye xuan	1
@@ -1147,7 +1339,6 @@ use_preset_vocabulary: false
 语擦	yu ca	1
 淘汰分	tao tai fen	1
 乜嘢	mie ye	1
-我答辩	wo da bian	1
 找宝箱	zhao bao xiang	1
 洛琪希	luo qi xi	1
 土土的	tu tu de	1
@@ -1164,7 +1355,6 @@ use_preset_vocabulary: false
 卡砖	ka zhuan	1
 东安湖	dong an hu	1
 盖可	gai ke	1
-万魂	wan hun	1
 容貌焦虑	rong mao jiao lv	1
 轻乳茶	qing ru cha	1
 孔凤春	kong feng chun	1
@@ -1214,7 +1404,6 @@ use_preset_vocabulary: false
 海洋节	hai yang jie	1
 好社死	hao she si	1
 飞机大厨	fei ji da chu	1
-无春年	wu chun nian	1
 验货宝	yan huo bao	1
 意满离	yi man li	1
 狂炫	kuang xuan	1
@@ -1249,7 +1438,6 @@ use_preset_vocabulary: false
 文具多	wen ju duo	1
 信念感	xin nian gan	1
 酱醋茶	jiang cu cha	1
-小糖丸	xiao tang wan	1
 两命	liang ming	1
 知妙	zhi miao	1
 天崩开局	tian beng kai ju	1
@@ -1259,7 +1447,6 @@ use_preset_vocabulary: false
 推理本	tui li ben	1
 西楼儿女	xi lou er nv	1
 天山翠	tian shan cui	1
-胀相	zhang xiang	1
 省心租	sheng xin zu	1
 茉莉奶白	mo li nai bai	1
 溪木源	xi mu yuan	1
@@ -1284,7 +1471,6 @@ use_preset_vocabulary: false
 椰乳	ye ru	1
 树夏	shu xia	1
 擂饭	lei fan	1
-霓虹町	ni hong ding	1
 远单	yuan dan	1
 潮奈	chao nai	1
 一身反骨	yi shen fan gu	1
@@ -1319,7 +1505,6 @@ use_preset_vocabulary: false
 桀桀桀	jie jie jie	1
 婧祎	jing yi	1
 拼好饭	pin hao fan	1
-同岗	tong gang	1
 按背	an bei	1
 丘大叔	qiu da shu	1
 练肩	lian jian	1
@@ -1331,12 +1516,10 @@ use_preset_vocabulary: false
 无主灯	wu zhu deng	1
 小孩姐	xiao hai jie	1
 别尬黑	bie ga hei	1
-海龟爸爸	hai gui ba ba	1
 老碗会	lao wan hui	1
 张天赋	zhang tian fu	1
 弃赛	qi sai	1
 太荒谬	tai huang miu	1
-限单	xian dan	1
 爱意随风起	ai yi sui feng qi	1
 发光水	fa guang shui	1
 周生如故	zhou sheng ru gu	1
@@ -1391,12 +1574,10 @@ use_preset_vocabulary: false
 窝囊费	wo nang fei	1
 恰巴塔	qia ba ta	1
 菱花白	ling hua bai	1
-院赛	yuan sai	1
 已打印	yi da yin	1
 无人直播	wu ren zhi bo	1
 给您添麻烦了	gei nin tian ma fan le	1
 已接到	yi jie dao	1
-社工部	she gong bu	1
 立库	li ku	1
 报白	bao bai	1
 立减金	li jian jin	1
@@ -1407,24 +1588,17 @@ use_preset_vocabulary: false
 预瞄	yu miao	1
 在加纳共和国	zai jia na gong he guo	1
 魔方新世界	mo fang xin shi jie	1
-我出差了	wo chu chai le	1
 老破小	lao po xiao	1
-对你的想象	dui ni de xiang xiang	1
-银河写手	yin he xie shou	1
 椒丘	jiao qiu	1
 巴太	ba tai	1
-答辩秘书	da bian mi shu	1
 戍卫	shu wei	1
 县公司	xian gong si	1
 早上坏	zao shang huai	1
 预组	yu zu	1
 可画	ke hua	1
-符传	fu chuan	1
 卡点到	ka dian dao	1
-费可	fei ke	1
 泛用	fan yong	1
 你的宝	ni de bao	1
-错过你的那些年	cuo guo ni de na xie nian	1
 周校	zhou xiao	1
 帕美	pa mei	1
 大单元	da dan yuan	1
@@ -1436,9 +1610,7 @@ use_preset_vocabulary: false
 同协	tong xie	1
 在院	zai yuan	1
 预充	yu chong	1
-翁瓦克	weng wa ke	1
 干包	gan bao	1
-党纪学习教育	dang ji xue xi jiao yu	1
 红温	hong wen	1
 超击破	chao ji po	1
 万相之王	wan xiang zhi wang	1
@@ -1460,29 +1632,24 @@ use_preset_vocabulary: false
 同谐主	tong xie zhu	1
 好素	hao su	1
 集帅	ji shuai	1
-区赛	qu sai	1
 放心借	fang xin jie	1
 勇敢一次	yong gan yi ci	1
 贝德美	bei de mei	1
 两荤一素	liang hun yi su	1
 通天代	tong tian dai	1
 花小龙	hua xiao long	1
-情靡	qing mi	1
 维神	wei shen	1
 谭竹	tan zhu	1
 先秦淑女步	xian qin shu nv bu	1
 维什戴尔	wei shen dai er	1
-四月女友	si yue nv you	1
 红色冲浪板	hong se chong lang ban	1
 异德	yi de	1
-特技狂人	te ji kuang ren	1
 斗魂竞技场	dou hun jing ji chang	1
 谢夫涅	xie fu nie	1
 囧囧囧	jiong jiong jiong	1
 睁眼看世界	zheng yan kan shi jie	1
 打螺丝	da luo si	1
 末路狂花钱	mo lu kuang hua qian	1
-穿过月亮的旅行	chuan guo yue liang de lv xing	1
 黎深	li shen	1
 边佑锡	bian you xi	1
 尘白	chen bai	1
@@ -1552,10 +1719,7 @@ use_preset_vocabulary: false
 坠落的审判	zhui luo de shen pan	1
 维和防暴队	wei he fang bao dui	1
 九龙城寨之围城	jiu long cheng zhai zhi wei cheng	1
-年少日记	nian shao ri ji	1
-金的音像店	jin de yin xiang dian	1
 网暴死	wang bao si	1
-专项附加扣除	zhuan xiang fu jia kou chu	1
 棋手战鹰	qi shou zhan ying	1
 吉伊	ji yi	1
 少萝	shao luo	1
