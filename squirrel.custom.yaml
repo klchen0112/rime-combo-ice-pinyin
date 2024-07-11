@@ -122,7 +122,7 @@ patch:
     # text_orientation: horizontal # horizontal | vertical
     candidate_list_layout: linear
     text_orientation: horizontal
-    inline_preedit: false
+    inline_preedit: true
     inline_candidate: false
     # space between candidates in stacked layout
     # space between preedit and candidates in non-inline mode
