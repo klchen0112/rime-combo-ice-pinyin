@@ -88,6 +88,7 @@ patch:
     org.gnu.emacs:
       ascii_mode: false
       no_inline: true
+      vim_mode: true
     co.zeit.hyper:
       ascii_mode: true
     com.google.Chrome:
