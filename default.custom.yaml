@@ -23,7 +23,7 @@ patch:
     - schema: rime_ice
     - schema: japanese
   menu:
-    page_size: 5
+    page_size: 8
   ascii_composer:
     good_old_caps_lock: true
     switch_key:

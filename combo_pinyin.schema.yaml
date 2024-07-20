@@ -87,7 +87,7 @@ speller:
     - "xform/^([a-z]+)$/$1'/"
 
 translator:
-  dictionary: rime_ice
+  dictionary: rime_frost
   prism: combo_pinyin
   preedit_format:
     - xform/([nl])v/$1ü/
