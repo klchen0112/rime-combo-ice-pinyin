@@ -1,0 +1,5 @@
+* 介绍
+1. 包含engrammer和qwerty两种布局的宫保拼音
+2. rime_frost
+3. easy_en
+4. japanese
