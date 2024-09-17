@@ -1,0 +1,4 @@
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
