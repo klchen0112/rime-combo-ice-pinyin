@@ -34,7 +34,7 @@ __patch:
   - grammar:/hans?
 
   # 用家自選配置
-  - combo_pinyin.custom:/patch?
+  - combo_pinyin_engrammer.custom:/patch?
   # emoji kaomoji 转换
   - emoji:/emoji?
   - kaomoji:/kaomoji?

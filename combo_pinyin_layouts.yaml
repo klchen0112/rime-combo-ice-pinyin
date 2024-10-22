@@ -260,6 +260,8 @@ use_engrammer_layout:
       - engrammer_layout_options
       - engrammer_layout_initials
       - common_options
+  speller/alphabet: "iyxeojauk,'-chlr tdswbg.;/v"
+  speller/initials: "iyxeojauk,'-chlr tdswbg.;/v"
 
 use_split_layout:
   chord_composer/+:

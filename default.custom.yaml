@@ -18,7 +18,7 @@ patch:
 
   schema_list:
     - schema: combo_pinyin_split
-    - schema: combo_pinyin_engrammer
+    #- schema: combo_pinyin_engrammer
     - schema: easy_en
     - schema: rime_frost
     - schema: japanese
