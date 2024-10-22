@@ -42,7 +42,7 @@ split_layout_options:
     # 以下根據宮保拼音的鍵位分別變換聲母、韻母部分
     # 分號、單引號較少用，改爲通過並擊組合輸入
     - "xform/^JR$/;/"
-    - "xform/^QR$/'/"
+    - "xform/^QR$/'/"[en]
     # 若左手拇指鍵爲分號或單引號，改寫爲 H
     - xlit|JQ|HH|
     # 空格鍵單擊時發送空白
@@ -74,13 +74,20 @@ engrammer_layout_options:
   # 字母表，包含用於並擊的按鍵
   # 擊鍵雖有先後，形成並擊時，一律以字母表順序排列
   use_control: true
-  alphabet: "iyxeojauk,'-chlr tdswbg.;/v"
+  alphabet: "ieojauk,chlr tdsw"
   # Left
-  # iyxeojauk,'-c
-  # swxdecfrvgtba
+  # ieojauk,c
+  # sdecfrvga
+  # SCLFZDBGH
+  # sdecfrvga
+  # SCLFZDBGH
 
-  # hlr tdswbg.;/v
-  # jum kiloqzhynp
+  # hlr tdsw
+  # jum kilo
+  # IUVANREO
+
+  #ieojauk,chlr tdsw
+  #SCLFZDBGHIUVANREOl
   # 拼寫運算規則，將一組並擊編碼轉換爲拼音音節
   algebra:
     # 若 Control/Alt/Shift 鍵參與並擊，須改以單個字符表示按鍵
@@ -88,7 +95,7 @@ engrammer_layout_options:
     - 'xform/\{Alt_L\}/a/'
     - 'xform/\{Shift_L\}/a/'
     # 先將物理按鍵字符對應到宮保拼音鍵位中的拼音字母
-    - "xlit|iyxeojauk,'-chlr tdswbg.;/v|SCZCLFZDBGTPHIUVANREOXXXXXX|"
+    - "xlit|ieojauk,chlr tdsw|SCLFZDBGHIUVANREO|"
     # 以下根據宮保拼音的鍵位分別變換聲母、韻母部分
     # 空格鍵單擊時產生空白
     - 'xform/^A$/ /'
