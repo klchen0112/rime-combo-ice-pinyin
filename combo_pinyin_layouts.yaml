@@ -269,6 +269,7 @@ use_engrammer_layout:
       - common_options
   speller/alphabet: "iyxeojauk,'-chlr tdswbg.;/v"
   speller/initials: "iyxeojauk,'-chlr tdswbg.;/v"
+  translator/prism: combo_pinyin_engrammer
 
 use_split_layout:
   chord_composer/+:
