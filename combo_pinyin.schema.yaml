@@ -11,7 +11,7 @@ schema:
     並擊輸入拼音
     https://github.com/rime/home/wiki/ComboPinyin
   dependencies:
-    - rime_ice
+    - rime_frost
 
 switches:
   - name: ascii_mode
@@ -19,20 +19,20 @@ switches:
     states: [中文, 西文]
   - name: full_shape
     states: [半角, 全角]
-  - name: traditionalization
-    states: [简, 繁]
-    reset: 0
-  - name: ascii_punct
-    states: [。，, ．，]
-  - name: emoji
-    states: [💀, 😄]
-    reset: 1
-  - name: kaomoji
-    states: [ ￣へ￣, (u‿ฺu✿ฺ) ]
-    reset: 1
+  #- name: traditionalization
+  #  states: [简, 繁]
+  #  reset: 0
+  #- name: ascii_punct
+  #  states: [。，, ．，]
+  #- name: emoji
+  #  states: [💀, 😄]
+  #  reset: 1
+  #- name: kaomoji
+  #  states: [ ￣へ￣, (u‿ฺu✿ฺ) ]
+  #  reset: 1
 engine:
   processors:
-    - lua_processor@select_character          # 以词定字
+    #- lua_processor@select_character          # 以词定字
     - ascii_composer #
     - recognizer
     - chord_composer # 實現並擊按鍵處理
@@ -52,12 +52,12 @@ engine:
     - punct_translator
     - script_translator
   filters:
-    - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
-    - lua_filter@corrector                          # 错音错字提示
-    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
-    - simplifier@traditionalize # 简繁切换
-    - simplifier@emoji # Emoji
-    - simplifier@kaomoji                            # 颜文字
+    #- lua_filter@*is_in_user_dict # 用户词典的词加上一个*
+    #- lua_filter@corrector                          # 错音错字提示
+    #- lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+    #- simplifier@traditionalize # 简繁切换
+    #- simplifier@emoji # Emoji
+    #- simplifier@kaomoji                            # 颜文字
     - uniquifier
 
 chord_composer:
@@ -66,12 +66,12 @@ editor:
   bindings:
     BackSpace: back_syllable
 
-# Lua 配置：长词优先
-# 提升 count 个词语，插入到第 idx 个位置。
-# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
-long_word_filter:
-  count: 2
-  idx: 4
+## Lua 配置：长词优先
+## 提升 count 个词语，插入到第 idx 个位置。
+## 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+#long_word_filter:
+#  count: 2
+#  idx: 4
 
 
 speller:
@@ -86,7 +86,6 @@ speller:
     #- derive/^([zcsr]h?)?ei$/$1e/
     # 拼音音節一律後加隔音符號，避免音節切分歧義
     - "xform/^([a-z]+)$/$1'/"
-
 
 translator:
   dictionary: rime_frost
@@ -106,28 +105,23 @@ key_binder:
 recognizer:
   import_preset: default
 
-
 __patch:
-  # 默認佈局：七指禪
-  # - combo_pinyin_layouts:/use_pc_layout
+# 默認佈局：七指禪
+  - combo_pinyin_layouts:/use_pc_layout
   # 解封下列代碼，選用其他佈局選項
   # 七指禪，運用縮略碼
   # - combo_pinyin_layouts:/use_pc_layout_with_briefs
   # 八指禪，默認配置：字母 A = 宮保拼音碼 H
-  - combo_pinyin_layouts:/use_split_layout
+  # - combo_pinyin_layouts:/use_split_layout
   # 八指禪，可選配置：設定左手拇指位 H 的鍵碼
   # - combo_pinyin_layouts:/use_semicolon
   # - combo_pinyin_layouts:/use_apostrophe
-  - combo_pinyin_layouts:/use_control
+  # - combo_pinyin_layouts:/use_control
   # - combo_pinyin_layouts:/use_alt
   # - combo_pinyin_layouts:/use_shift
 
   # 使用八股文語言模型
-  - grammar:/hans?
+  - grammar:/hant?
 
   # 用家自選配置
   - combo_pinyin.custom:/patch?
-  # emoji kaomoji 转换
-  - emoji:/emoji?
-  - kaomoji:/kaomoji?
-  - traditionalize:/traditionalize?
