@@ -265,10 +265,11 @@ use_engrammer_layout:
   chord_composer/+:
     __patch:
       - engrammer_layout_options
+      - combo_pinyin_briefs:/briefs
       - engrammer_layout_initials
       - common_options
-  speller/alphabet: "ieojauk,chlr tdsw"
-  speller/initials: "ieojauk,chlr tdsw"
+  #speller/alphabet: "ieojauk,chlr tdsw"
+  #speller/initials: "ieojauk,chlr tdsw"
   translator/prism: combo_pinyin_engrammer
 
 use_split_layout:
