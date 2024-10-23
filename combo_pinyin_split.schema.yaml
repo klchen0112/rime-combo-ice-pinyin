@@ -10,12 +10,105 @@ schema:
   description: |
     並擊輸入拼音。
     專爲分體式或有拆分空格設計的鍵盤優化，左右手拇指各司一鍵以利並擊。
+  dependencies:
+    - rime_frost
 
-__include: combo_pinyin.schema:/
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: full_shape
+    states: [半角, 全角]
+  - name: traditionalization
+    states: [简, 繁]
+    reset: 0
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: emoji
+    states: [💀, 😄]
+    reset: 1
+  - name: kaomoji
+    states: [ ￣へ￣, (u‿ฺu✿ฺ) ]
+    reset: 1
+
+engine:
+  processors:
+    - lua_processor@select_character          # 以词定字
+    - ascii_composer #
+    - recognizer
+    - chord_composer # 實現並擊按鍵處理
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
+    - lua_filter@corrector                          # 错音错字提示
+    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@traditionalize # 简繁切换
+    - simplifier@emoji # Emoji
+    - simplifier@kaomoji                            # 颜文字
+    - uniquifier
+
+chord_composer:
+
+editor:
+  bindings:
+    BackSpace: back_syllable
+
+## Lua 配置：长词优先
+## 提升 count 个词语，插入到第 idx 个位置。
+## 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+long_word_filter:
+  count: 2
+  idx: 4
+
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba'"
+  initials: "zyxwvutsrqponmlkjihgfedcba"
+  delimiter: " "
+  algebra:
+    # 合併音節
+    - derive/^lo$/lou/
+    # 合併 ⟨o / ou⟩、⟨e / ei⟩兩組韻母
+    #- derive/^([bpmf])?ou$/$1o/
+    #- derive/^([zcsr]h?)?ei$/$1e/
+    # 拼音音節一律後加隔音符號，避免音節切分歧義
+    - "xform/^([a-z]+)$/$1'/"
+
+translator:
+  dictionary: rime_frost
+  prism: combo_pinyin
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - "xform/' /'/"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+
 __patch:
-  # 選用「八指禪」及兼容佈局
-  - combo_pinyin_layouts:/use_split_layout
   # 默認配置爲兼容佈局。
+  - combo_pinyin_layouts:/use_split_layout
   # 標準鍵盤左手小指字母 A 鍵當作宮保拼音碼 H。
   # 可編程鍵盤須設拇指左鍵爲字母 A。
   # 或者解封下列註釋行之一，選定左手拇指 H 鍵所用的鍵碼：
@@ -24,15 +117,15 @@ __patch:
   # 拇指左鍵設爲單引號
   # - combo_pinyin_layouts:/use_apostrophe
   # 拇指左鍵設爲 Control
-  # - combo_pinyin_layouts:/use_control
+  - combo_pinyin_layouts:/use_control
   # 拇指左鍵設爲 Alt
   # - combo_pinyin_layouts:/use_alt
   # 拇指左鍵設爲 Shift
   # - combo_pinyin_layouts:/use_shift
-  
+
   # 使用八股文語言模型
   - grammar:/hans?
   - emoji:/emoji?
   - kaomoji:/kaomoji?
-  - traditionalize:/traditionalize?
+  - traditionalize:/s2t?
 

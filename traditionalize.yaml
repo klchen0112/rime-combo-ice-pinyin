@@ -1,5 +1,5 @@
 # 简繁切换
-traditionalize:
+s2t:
   traditionalize:
     option_name: traditionalization
     opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json

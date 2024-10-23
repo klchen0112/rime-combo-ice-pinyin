@@ -23,7 +23,7 @@ patch:
     - schema: japanese
     - schema: radical_pinyin
   menu:
-    page_size: 8
+    page_size: 6
   ascii_composer:
     good_old_caps_lock: true
     switch_key:

@@ -42,7 +42,7 @@ split_layout_options:
     # 以下根據宮保拼音的鍵位分別變換聲母、韻母部分
     # 分號、單引號較少用，改爲通過並擊組合輸入
     - "xform/^JR$/;/"
-    - "xform/^QR$/'/"[en]
+    - "xform/^QR$/'/"
     # 若左手拇指鍵爲分號或單引號，改寫爲 H
     - xlit|JQ|HH|
     # 空格鍵單擊時發送空白
@@ -267,8 +267,8 @@ use_engrammer_layout:
       - engrammer_layout_options
       - engrammer_layout_initials
       - common_options
-  speller/alphabet: "iyxeojauk,'-chlr tdswbg.;/v"
-  speller/initials: "iyxeojauk,'-chlr tdswbg.;/v"
+  speller/alphabet: "ieojauk,chlr tdsw"
+  speller/initials: "ieojauk,chlr tdsw"
   translator/prism: combo_pinyin_engrammer
 
 use_split_layout:
