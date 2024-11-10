@@ -3,8 +3,7 @@ patch:
   show_notifications_via_notification_center: true
   show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）
   # 以下软件默认英文模式
-  app_options:
-
+  app_options/+:
     com.apple.dt.Xcode:
       ascii_mode: true
     com.runningwithcrayons.Alfred:
@@ -83,11 +82,13 @@ patch:
     org.gnu.Aquamacs:
       ascii_mode: true
     org.gnu.Emacs:
-      ascii_mode: true
-      no_inline: false
+      ascii_mode: false
+      no_inline: true
+      inline: true
     org.gnu.emacs:
-      ascii_mode: true
-      no_inline: false
+      ascii_mode: false
+      no_inline: true
+      inline: true
     co.zeit.hyper:
       ascii_mode: true
     com.google.Chrome:
@@ -114,20 +115,16 @@ patch:
     color_scheme: DoomOneLight
     color_scheme_dark: dracula
 
-    # Deprecated since 0.36, Squirrel 0.15
-    # horizontal: false
-    # NOTE: do not set a default value for `candidate_list_layout`, in order to
-    # keep the deprecated `horizontal` option working for existing users.
-    #candidate_list_layout: stacked  # stacked | linear
-    # text_orientation: horizontal # horizontal | vertical
     candidate_list_layout: linear
     text_orientation: horizontal
     inline_preedit: true
     inline_candidate: false
+    memorize_size: true
+    translucency: true
     # space between candidates in stacked layout
     # space between preedit and candidates in non-inline mode
 
-    candidate_format: "%c\u2005%@" # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间"
+    candidate_format: "[label]. [candidate]  [comment]" # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间"
     # adjust the base line of vertical text
     #base_offset: 6
     font_face: "TsangerJinKai02,PingFang SC,Apple Color Emoji,Liberation Mono,Noto Sans Symbols2,Segoe UI Emoji,Twitter Color Emoji,LXGW WenKai Mono,Noto Sans CJK SC Regular,HanaMinB"
