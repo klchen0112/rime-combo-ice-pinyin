@@ -122,10 +122,10 @@ __patch:
   # - combo_pinyin_layouts:/use_shift
 
   # 使用八股文語言模型
-  - grammar:/hans?
+  # - grammar:/hans?
 
   # 用家自選配置
-  - combo_pinyin_engrammer.custom:/patch?
+  # - combo_pinyin_engrammer.custom:/patch?
   # emoji kaomoji 转换
   - emoji:/emoji?
   - kaomoji:/kaomoji?
