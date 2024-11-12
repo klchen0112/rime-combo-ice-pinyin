@@ -120,6 +120,7 @@ engrammer_layout_initials:
     - xform/^ZF/zh/
     - xform/^CL/ch/
     - xform/^SC/sh/
+
 common_options:
   algebra/+:
     - xlit/BPFDTLGKHZCS/bpfdtlgkhzcs/
@@ -245,6 +246,12 @@ use_alpha28_layout:
 #   __patch:
 #     - combo_pinyin_layouts:/use_pc_layout
 #     - combo_pinyin_layouts:/use_alpha28_layout
+#
+# 用法示例：選用七指禪佈局，啓用縮略碼；回車鍵上屏按鍵序列（須重設）
+# patch:
+#   __patch:
+#     - combo_pinyin_layouts:/use_pc_layout_with_briefs
+#     - combo_pinyin_layouts:/use_return_to_commit_raw_input
 
 use_pc_layout:
   chord_composer/+:
@@ -265,7 +272,6 @@ use_engrammer_layout:
   chord_composer/+:
     __patch:
       - engrammer_layout_options
-      - combo_pinyin_briefs:/briefs
       - engrammer_layout_initials
       - common_options
   #speller/alphabet: "ieojauk,chlr tdsw"
@@ -278,6 +284,23 @@ use_split_layout:
       - split_layout_options
       - split_layout_initials
       - common_options
+
+use_return_to_commit_raw_input:
+  chord_composer/bindings:
+    # 回車鍵上屏按鍵序列
+    Return: commit_raw_input
+
+use_return_to_confirm:
+  chord_composer/bindings:
+    # 不看回車鍵，讓 editor 處理
+    Return: noop
+    # 改用 Shift+回車上屏按鍵序列
+    Shift+Return: commit_raw_input
+  editor/bindings:
+    # 退格鍵刪除一個拼音音節
+    BackSpace: back_syllable
+    # 回車鍵確認當前候選
+    Return: confirm
 
 use_semicolon:
   chord_composer/+:
