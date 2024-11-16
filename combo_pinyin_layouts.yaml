@@ -74,7 +74,7 @@ engrammer_layout_options:
   # 字母表，包含用於並擊的按鍵
   # 擊鍵雖有先後，形成並擊時，一律以字母表順序排列
   use_control: true
-  alphabet: "ieojauk,{Control_L}chlr tdsw"
+  alphabet: "ieojaukz{Control_L}chlr tdsw"
   # Left
   # ieojauk,c
   # sdecfrvga
@@ -86,7 +86,7 @@ engrammer_layout_options:
   # jum kilo
   # IUVANREO
 
-  #ieojauk,chlr tdsw
+  #ieojaukzchlr tdsw
   #SCLFZDBGHIUVANREOl
   # 拼寫運算規則，將一組並擊編碼轉換爲拼音音節
   algebra:
@@ -95,7 +95,7 @@ engrammer_layout_options:
     - 'xform/\{Alt_L\}/c/'
     - 'xform/\{Shift_L\}/c/'
     # 先將物理按鍵字符對應到宮保拼音鍵位中的拼音字母
-    - "xlit|ieojauk,chlr tdsw|SCLFZDBGHIUVANREO|"
+    - "xlit|ieojaukzchlr tdsw|SCLFZDBGHIUVANREO|"
     # 以下根據宮保拼音的鍵位分別變換聲母、韻母部分
     # 空格鍵單擊時產生空白
     - 'xform/^A$/ /'
@@ -276,7 +276,7 @@ use_engrammer_layout:
       - common_options
   #speller/alphabet: "ieojauk,chlr tdsw"
   #speller/initials: "ieojauk,chlr tdsw"
-  translator/prism: combo_pinyin_engrammer
+  #translator/prism: combo_pinyin_engrammer
 
 use_split_layout:
   chord_composer/+:
