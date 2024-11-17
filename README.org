@@ -3,3 +3,6 @@
 2. rime_frost
 3. easy_en
 4. japanese
+* 感谢
+- [[https://github.com/gaboolic/rime-frost][白霜拼音]]
+- [[https://github.com/tumuyan/rime-melt][融合拼音]]
