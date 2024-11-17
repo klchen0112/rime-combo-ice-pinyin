@@ -1,4 +1,5 @@
 patch:
+  keyboard_layout: last
   # 通知栏显示方式以及 ascii_mode 应用，与外观无关
   show_notifications_via_notification_center: true
   show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）
