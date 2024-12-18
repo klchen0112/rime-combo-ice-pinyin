@@ -83,11 +83,11 @@ patch:
     org.gnu.Aquamacs:
       ascii_mode: true
     org.gnu.Emacs:
-      ascii_mode: false
+      ascii_mode: true
       no_inline: true
       inline: true
     org.gnu.emacs:
-      ascii_mode: false
+      ascii_mode: true
       no_inline: true
       inline: true
     co.zeit.hyper:
