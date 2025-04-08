@@ -559,4 +559,4 @@ speller:
     - derive/([qwrtypsdfghjklzxcbnm])([aeio])ng$/$1ng/ # lng → lang、leng、ling、long
 
 __patch:
-  - grammar:/amz?
+  - grammar:/wx?
