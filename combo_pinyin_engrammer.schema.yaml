@@ -31,8 +31,13 @@ switches:
   - name: kaomoji
     states: [ ￣へ￣, (u‿ฺu✿ฺ) ]
     reset: 1
+  - name: prediction
+    states: [ 测, 预 ]
+    reset: 1
+
 engine:
   processors:
+    - predictor                                 #联想处理器
     - lua_processor@select_character          # 以词定字
     - ascii_composer #
     - recognizer
@@ -50,6 +55,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - predict_translator
     - punct_translator
     - script_translator
   filters:
@@ -60,6 +66,16 @@ engine:
     - simplifier@emoji # Emoji
     - simplifier@kaomoji                            # 颜文字
     - uniquifier
+
+predictor:
+  db: wanxiang-lts-zh-predict.db
+# 每次最大预测候选数
+# 默认为 0，表示显示所有候选数
+# 您可以将其设置为与 page_size 相同，这样 period 就不会触发下一页
+  max_candidates: 5
+# 最大连续预测次数
+# 默认为 0，表示无限制
+  max_iterations: 1
 
 chord_composer:
 
