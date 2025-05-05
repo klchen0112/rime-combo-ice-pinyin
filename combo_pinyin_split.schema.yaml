@@ -95,6 +95,10 @@ speller:
   initials: "zyxwvutsrqponmlkjihgfedcba"
   delimiter: " "
   algebra:
+    # 万象词库兼容
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/
+    - xform/ńg|ňg|ǹg/eng/
     # 合併音節
     - derive/^lo$/lou/
     # 合併 ⟨o / ou⟩、⟨e / ei⟩兩組韻母
