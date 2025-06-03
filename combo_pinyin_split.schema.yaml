@@ -32,7 +32,7 @@ switches:
     reset: 1
   - name: prediction
     states: [ 测, 预 ]
-    reset: 1
+    reset: 0
 
 engine:
   processors:

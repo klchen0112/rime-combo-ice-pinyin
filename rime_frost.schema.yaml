@@ -38,7 +38,7 @@ switches:
     states: [正常, 单字]
   - name: prediction
     states: [ 测, 预 ]
-    reset: 1
+    reset: 0
 
 # 输入引擎
 engine:
