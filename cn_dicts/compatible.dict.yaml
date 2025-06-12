@@ -4,11 +4,29 @@
 #兼容词库，对于多字词汇两种读音的场景，手动维护到本表以及一些其他的杂项
 ---
 name: compatible
-version: "2025-05-05 14:11"
+version: "LTS"
 sort: by_weight
 ...
+露出	lù chū
+丁丁	zhēng zhēng	402
+没看着	méi kàn zháo	142
+下不了	xià bù liǎo	221
+有多重	yǒu duō chóng	250
+多重	duō zhòng	631
+不干	bù gān	569
+大夫	dà fū
+薄膜	bó mó	595
+没过了	mò guò le
+没过我	mò guò wǒ
+没过线	mò guò xiàn
+没过	mò guò
+摩挲	mó suō	467
+公差	gōng chā	480
+好高	hào gāo	491
+好强	hào qiáng	485
 攒个	cuán gè	391
 攒个	zǎn gè	391
+背着	bēi zhe	545
 外传	wài chuán	460
 长点儿	cháng diǎn ér	293
 长点儿	zhǎng diǎn ér	293
@@ -2218,7 +2236,7 @@ sort: by_weight
 熟客	shóu kè	533
 熟烂	shóu làn	480
 熟了	shóu le	597
-熟练	shóu liàn	679
+熟练	shóu liàn	279
 熟脸	shóu liǎn	359
 熟料	shóu liào	454
 熟路	shóu lù	317
@@ -2234,7 +2252,6 @@ sort: by_weight
 熟识	shóu shí	527
 熟时	shóu shí	455
 熟手	shóu shǒu	440
-熟睡	shóu shuì	504
 熟水	shóu shuǐ	281
 熟铁	shóu tiě	373
 熟透	shóu tòu	602
@@ -2256,7 +2273,7 @@ sort: by_weight
 我熟	wǒ shóu	337
 娴熟	xián shóu	561
 相熟	xiāng shóu	481
-眼熟	yǎn shóu	533
+眼熟	yǎn shóu	482
 一熟	yì shóu	316
 用熟	yòng shóu	354
 圆熟	yuán shóu	329

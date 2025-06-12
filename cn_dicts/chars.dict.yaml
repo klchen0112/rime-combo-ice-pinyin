@@ -3,7 +3,7 @@
 #https://github.com/amzxyz/RIME-LMDG
 ---
 name: chars
-version: "2025-05-05 14:11"
+version: "LTS"
 sort: by_weight
 ...
 啊	a	915
@@ -603,7 +603,7 @@ sort: by_weight
 𢠭	bā	1
 𢺞	bǎ	1
 𢻷	bā	1
-𣬷	ba	1
+𣬷	bā	1
 𣬶	bā	1
 𤜕	bà	1
 𤜱	bā	1
@@ -3646,6 +3646,7 @@ sort: by_weight
 𪉨	chāng	1
 𪤝	chǎng	1
 𫊪	cháng	1
+䲝	chāng	1
 超	chāo	776
 朝	cháo	719
 炒	chǎo	702
@@ -3969,6 +3970,7 @@ sort: by_weight
 𪕁	chén	1
 𫝕	chén	1
 𬘭	chēn	1
+𠱸	chén	1
 成	chéng	862
 程	chéng	808
 城	chéng	791
@@ -4181,6 +4183,7 @@ sort: by_weight
 𫄺	chéng	1
 𫔘	chēng	1
 𬲜	chēng	1
+𦉘	chēng	1
 吃	chī	871
 持	chí	803
 池	chí	688
@@ -6024,6 +6027,7 @@ sort: by_weight
 𪒙	cuō	1
 𪘓	cuó	1
 棤	cuò	1
+𢵄	cuò	1
 打	dǎ	904
 大	dà	800
 达	dá	788
@@ -6731,6 +6735,7 @@ sort: by_weight
 𤷙	dé	1
 𧊇	dé	1
 𨁽	dé	1
+𢱕	dé	1
 得	děi	614
 嘚	dēi	1
 䮻	děi	1
@@ -7223,6 +7228,7 @@ sort: by_weight
 𪓼	diān	1
 𪖚	diān	1
 𫁥	diàn	1
+𣵦	diàn	1
 掉	diào	758
 调	diào	743
 雕	diāo	633
@@ -8145,6 +8151,7 @@ sort: by_weight
 𪌤	duī	1
 𪒛	duì	1
 𪒡	duì	1
+𩛍	duī	1
 顿	dùn	700
 盾	dùn	648
 吨	dūn	640
@@ -9634,6 +9641,7 @@ sort: by_weight
 𨛔	fǒu	1
 𩂆	fǒu	1
 𫒘	fǒu	1
+𠳝	fǒu	1
 服	fú	811
 复	fù	780
 府	fǔ	748
@@ -10179,6 +10187,7 @@ sort: by_weight
 𫙉	fǔ	1
 𫝊	fù	1
 𫞶	fǔ	1
+𫛡	fú	1
 尬	gà	607
 咖	gā	598
 噶	gá	571
@@ -10903,11 +10912,10 @@ sort: by_weight
 𬒔	gèng	1
 暅	gèng	1
 𬒔	gěng	1
-怾	gi	1
-公	gōng	853
 工	gōng	842
+共	gòng	836
+公	gōng	803
 供	gōng	782
-共	gòng	776
 功	gōng	775
 攻	gōng	718
 宫	gōng	702
@@ -12937,6 +12945,7 @@ sort: by_weight
 𪠁	hé	1
 𪡛	hé	1
 𪱳	hé	1
+𠺪	hě	1
 黑	hēi	755
 嘿	hēi	633
 黒	hēi	453
@@ -12963,11 +12972,11 @@ sort: by_weight
 䓳	hěn	1
 𦚣	hén	1
 𬣳	hěn	1
-衡	héng	688
-恒	héng	661
+哼	hēng	688
+衡	héng	661
 横	héng	660
+恒	héng	651
 亨	hēng	590
-哼	hēng	567
 横	hèng	487
 桁	héng	400
 蘅	héng	370
@@ -14909,6 +14918,7 @@ sort: by_weight
 汲	jí	503
 藉	jí	502
 鲫	jì	499
+骑	jì	498
 悸	jì	497
 幾	jǐ	496
 亟	jí	494
@@ -15594,6 +15604,7 @@ sort: by_weight
 𫞴	jì	1
 㴔	jí	1
 嵴	jí	1
+𠽤	jī	1
 加	jiā	898
 家	jiā	871
 价	jià	824
@@ -18059,6 +18070,7 @@ sort: by_weight
 𫈹	jú	1
 俱	jū	1
 锔	jú	1
+𢤹	jù	1
 卷	juǎn	689
 卷	juàn	633
 捐	juān	621
@@ -19036,6 +19048,7 @@ sort: by_weight
 𪽇	kē	1
 𫟭	kè	1
 颏	ké	1
+𡲢	kē	1
 剋	kēi	1
 尅	kēi	1
 肯	kěn	715
@@ -20096,6 +20109,7 @@ sort: by_weight
 𫏌	lái	1
 𫓳	lǎi	1
 𫝫	lái	1
+𪮶	lài	1
 兰	lán	744
 蓝	lán	705
 览	lǎn	678
@@ -21367,6 +21381,9 @@ sort: by_weight
 𭀖	lí	1
 蜊	lí	1
 蠡	lí	1
+𢃇	lǐ	1
+𥅈	lì	1
+𫄫	lì	1
 俩	liǎ	637
 倆	liǎ	334
 连	lián	766
@@ -21962,6 +21979,7 @@ sort: by_weight
 𩭌	liè	1
 𩼭	liè	1
 峛	liè	1
+𫄫	liè	1
 林	lín	763
 临	lín	720
 邻	lín	642
@@ -22542,7 +22560,9 @@ sort: by_weight
 𪕚	liú	1
 𫞉	liǔ	1
 镏	liù	1
-咯	lo	1
+𠮩	liū	1
+𤠑	liú	1
+咯	lo	812
 龙	lóng	745
 隆	lóng	667
 笼	lóng	614
@@ -24285,6 +24305,7 @@ sort: by_weight
 𪎭	méi	1
 𪾛	mèi	1
 𫟈	měi	1
+𦳀	mèi	1
 们	men	861
 门	mén	798
 闷	mèn	624
@@ -24912,6 +24933,7 @@ sort: by_weight
 眇	miǎo	283
 杪	miǎo	280
 媌	miáo	164
+缪	miào	143
 緢	miáo	141
 玅	miào	124
 庿	miào	113
@@ -24925,7 +24947,6 @@ sort: by_weight
 劰	miǎo	1
 厸	miǎo	1
 繆	miào	1
-缪	miào	1
 㑤	miáo	1
 㠺	miáo	1
 㦝	miǎo	1
@@ -25710,6 +25731,7 @@ sort: by_weight
 𪌅	nà	1
 𪐀	nǎ	1
 𪗝	nà	1
+𠸎	nā	1
 奶	nǎi	723
 耐	nài	673
 奈	nài	652
@@ -26080,7 +26102,6 @@ sort: by_weight
 𢆂	néng	1
 𨃳	néng	1
 𨶙	něng	1
-莻	neus	1
 嗯	ǹg	763
 嗯	ńg	332
 嗯	ňg	1
@@ -26417,8 +26438,8 @@ sort: by_weight
 𪈼	niǎo	1
 𪉓	niǎo	1
 𫠓	niǎo	1
-涅	niè	584
 捏	niē	576
+涅	niè	570
 聂	niè	536
 镍	niè	504
 孽	niè	496
@@ -28233,6 +28254,7 @@ sort: by_weight
 𪕒	píng	1
 𪥈	píng	1
 𪾘	píng	1
+𠹶	pīng	1
 破	pò	737
 婆	pó	681
 坡	pō	663
@@ -29074,6 +29096,7 @@ sort: by_weight
 𪦧	qí	1
 𫅆	qī	1
 𬨂	qí	1
+𠺪	qì	1
 恰	qià	643
 洽	qià	551
 卡	qiǎ	545
@@ -29472,6 +29495,7 @@ sort: by_weight
 𫑍	qiǎn	1
 𫝐	qián	1
 靬	qián	1
+𩝡	qiǎn	1
 强	qiáng	874
 枪	qiāng	676
 抢	qiǎng	676
@@ -30073,6 +30097,7 @@ sort: by_weight
 𪙟	qǐn	1
 𪧭	qīn	1
 梣	qín	1
+𢫏	qīn	1
 请	qǐng	864
 情	qíng	791
 清	qīng	790
@@ -30469,6 +30494,7 @@ sort: by_weight
 𪓰	qiū	1
 𪖛	qiù	1
 𫠑	qiū	1
+𫚧	qiú	1
 去	qù	893
 区	qū	825
 取	qǔ	785
@@ -31290,6 +31316,7 @@ sort: by_weight
 𩵕	rèn	1
 𪔺	rèn	1
 葚	rèn	1
+𣏴	rén	1
 仍	réng	714
 扔	rēng	607
 礽	réng	341
@@ -35352,6 +35379,7 @@ sort: by_weight
 𪐝	tài	1
 𪐥	tài	1
 𪒴	tái	1
+𧘹	tāi	1
 谈	tán	722
 探	tàn	706
 坦	tǎn	679
@@ -35875,9 +35903,8 @@ sort: by_weight
 𪒿	téng	1
 𪔶	tēng	1
 𪱪	téng	1
-朰	teul	1
+提	tí	854
 体	tǐ	845
-提	tí	834
 题	tí	830
 替	tì	677
 梯	tī	653
@@ -38794,6 +38821,7 @@ sort: by_weight
 𪶮	wū	1
 𫊣	wú	1
 𫝀	wǔ	1
+𭴊	wú	1
 系	xì	819
 习	xí	803
 喜	xǐ	800
@@ -39416,6 +39444,7 @@ sort: by_weight
 𫘬	xí	1
 𫠃	xí	1
 咥	xì	1
+𥱊	xí	1
 下	xià	870
 夏	xià	717
 虾	xiā	680
@@ -40241,6 +40270,7 @@ sort: by_weight
 𩡠	xiāng	1
 𩾬	xiáng	1
 𪂼	xiāng	1
+𣚺	xiàng	1
 小	xiǎo	858
 效	xiào	787
 消	xiāo	775
@@ -44485,6 +44515,8 @@ sort: by_weight
 𫟌	yì	1
 𰁜	yì	1
 踦	yǐ	1
+𡃀	yì	1
+𢯎	yī	1
 因	yīn	835
 音	yīn	785
 引	yǐn	770
@@ -48573,8 +48605,8 @@ sort: by_weight
 𪎻	zhèng	1
 𪨘	zhēng	1
 𫖖	zhèng	1
-支	zhī	855
-只	zhǐ	848
+只	zhǐ	858
+支	zhī	845
 值	zhí	838
 知	zhī	820
 之	zhī	817
@@ -49511,6 +49543,7 @@ sort: by_weight
 𫟻	zhōu	1
 祝	zhù	866
 住	zhù	845
+朱	zhū	840
 主	zhǔ	839
 煮	zhǔ	833
 注	zhù	801
@@ -49521,7 +49554,6 @@ sort: by_weight
 猪	zhū	688
 珠	zhū	678
 诸	zhū	665
-朱	zhū	664
 驻	zhù	658
 竹	zhú	650
 柱	zhù	642
@@ -50044,6 +50076,7 @@ sort: by_weight
 𩬳	zhuǐ	1
 𪋇	zhuī	1
 𪠰	zhuì	1
+𩺬	zhuī	1
 准	zhǔn	785
 準	zhǔn	432
 谆	zhūn	419
@@ -51005,6 +51038,9 @@ sort: by_weight
 𫝷	zuò	1
 呒	ḿ	1
 呣	ḿ	1
+怾	无	1
+莻	无	1
+朰	无	1
 乲	无	1
 叾	无	1
 唜	无	1
@@ -51148,7 +51184,6 @@ sort: by_weight
 𫑘	无	1
 𫔰	无	1
 𫙮	无	1
-𫚧	无	1
 𫛩	无	1
 𰡉	无	1
 𱅛	无	1
@@ -51164,7 +51199,6 @@ sort: by_weight
 䇄	无	1
 䓪	无	1
 䨇	无	1
-䲝	无	1
 𠄳	无	1
 𠉞	无	1
 𠐤	无	1
@@ -51221,7 +51255,6 @@ sort: by_weight
 𪩷	无	1
 𪪼	无	1
 𪮷	无	1
-𪮶	无	1
 𪲎	无	1
 𪵱	无	1
 𪹚	无	1
@@ -51255,7 +51288,6 @@ sort: by_weight
 𫚞	无	1
 𫚜	无	1
 𫛜	无	1
-𫛡	无	1
 𬏟	无	1
 𭻾	无	1
 𰉬	无	1
@@ -53932,7 +53964,6 @@ sort: by_weight
 𠮞	无	1
 𠮤	无	1
 𠮥	无	1
-𠮩	无	1
 𠮧	无	1
 𠮪	无	1
 𠮮	无	1
@@ -54045,7 +54076,6 @@ sort: by_weight
 𠱺	无	1
 𠱹	无	1
 𠱻	无	1
-𠱸	无	1
 𠲀	无	1
 𠱼	无	1
 𠱽	无	1
@@ -54100,7 +54130,6 @@ sort: by_weight
 𠳔	无	1
 𠳘	无	1
 𠳚	无	1
-𠳝	无	1
 𠳖	无	1
 𠳛	无	1
 𠳙	无	1
@@ -54309,7 +54338,6 @@ sort: by_weight
 𠸋	无	1
 𠸊	无	1
 𠸑	无	1
-𠸎	无	1
 𠸐	无	1
 𠸓	无	1
 𠸒	无	1
@@ -54378,7 +54406,6 @@ sort: by_weight
 𠹷	无	1
 𠹺	无	1
 𠹹	无	1
-𠹶	无	1
 𠹻	无	1
 𠹸	无	1
 𠹾	无	1
@@ -54416,7 +54443,6 @@ sort: by_weight
 𠺫	无	1
 𠺩	无	1
 𠺬	无	1
-𠺪	无	1
 𠺭	无	1
 𠺵	无	1
 𠺲	无	1
@@ -54555,7 +54581,6 @@ sort: by_weight
 𠽞	无	1
 𠽛	无	1
 𠽠	无	1
-𠽤	无	1
 𠽢	无	1
 𠽥	无	1
 𠽭	无	1
@@ -54789,7 +54814,6 @@ sort: by_weight
 𡂼	无	1
 𡂾	无	1
 𡃊	无	1
-𡃀	无	1
 𡃉	无	1
 𡃎	无	1
 𡃋	无	1
@@ -56926,7 +56950,6 @@ sort: by_weight
 𡲟	无	1
 𡲝	无	1
 𡲜	无	1
-𡲢	无	1
 𡲤	无	1
 𡲡	无	1
 𡲩	无	1
@@ -57605,7 +57628,6 @@ sort: by_weight
 𢃃	无	1
 𢃄	无	1
 𢃅	无	1
-𢃇	无	1
 𢃆	无	1
 𢃈	无	1
 𢃊	无	1
@@ -58997,7 +59019,6 @@ sort: by_weight
 𢤺	无	1
 𢤸	无	1
 𢤷	无	1
-𢤹	无	1
 𢤶	无	1
 𢤼	无	1
 𢤻	无	1
@@ -59266,7 +59287,6 @@ sort: by_weight
 𢫗	无	1
 𢫒	无	1
 𢫖	无	1
-𢫏	无	1
 𢫑	无	1
 𢫜	无	1
 𢫛	无	1
@@ -59448,7 +59468,6 @@ sort: by_weight
 𢯂	无	1
 𢯊	无	1
 𢯈	无	1
-𢯎	无	1
 𢯆	无	1
 𢯐	无	1
 𢯒	无	1
@@ -59553,7 +59572,6 @@ sort: by_weight
 𢱒	无	1
 𢱔	无	1
 𢱖	无	1
-𢱕	无	1
 𢱜	无	1
 𢱗	无	1
 𢱝	无	1
@@ -59723,7 +59741,6 @@ sort: by_weight
 𢵆	无	1
 𢵃	无	1
 𢵅	无	1
-𢵄	无	1
 𢵂	无	1
 𢵊	无	1
 𢵋	无	1
@@ -60921,7 +60938,6 @@ sort: by_weight
 𣏱	无	1
 𣏳	无	1
 𣏵	无	1
-𣏴	无	1
 𣏲	无	1
 𣏸	无	1
 𣏻	无	1
@@ -61419,7 +61435,6 @@ sort: by_weight
 𣚷	无	1
 𣚹	无	1
 𣚸	无	1
-𣚺	无	1
 𣚿	无	1
 𣚻	无	1
 𣚾	无	1
@@ -62509,7 +62524,6 @@ sort: by_weight
 𣵣	无	1
 𣵧	无	1
 𣵤	无	1
-𣵦	无	1
 𣵥	无	1
 𣵫	无	1
 𣵩	无	1
@@ -64431,7 +64445,6 @@ sort: by_weight
 𤠔	无	1
 𤠒	无	1
 𤠕	无	1
-𤠑	无	1
 𤠡	无	1
 𤠜	无	1
 𤠢	无	1
@@ -65956,7 +65969,6 @@ sort: by_weight
 𥅅	无	1
 𥄾	无	1
 𥅆	无	1
-𥅈	无	1
 𥅇	无	1
 𥅊	无	1
 𥅉	无	1
@@ -67732,7 +67744,6 @@ sort: by_weight
 𥱆	无	1
 𥱉	无	1
 𥱇	无	1
-𥱊	无	1
 𥱋	无	1
 𥱍	无	1
 𥱅	无	1
@@ -68712,7 +68723,6 @@ sort: by_weight
 𦉌	无	1
 𦉔	无	1
 𦉒	无	1
-𦉘	无	1
 𦉞	无	1
 𦉖	无	1
 𦉗	无	1
@@ -70367,7 +70377,6 @@ sort: by_weight
 𦲽	无	1
 𦲿	无	1
 𦲾	无	1
-𦳀	无	1
 𦳂	无	1
 𦳒	无	1
 𦳍	无	1
@@ -71859,7 +71868,6 @@ sort: by_weight
 𧘵	无	1
 𧘸	无	1
 𧘴	无	1
-𧘹	无	1
 𧘷	无	1
 𧘼	无	1
 𧘺	无	1
@@ -76748,7 +76756,6 @@ sort: by_weight
 𩛈	无	1
 𩛐	无	1
 𩛔	无	1
-𩛍	无	1
 𩛓	无	1
 𩛖	无	1
 𩛕	无	1
@@ -76821,7 +76828,6 @@ sort: by_weight
 𩝙	无	1
 𩝢	无	1
 𩝜	无	1
-𩝡	无	1
 𩝧	无	1
 𩝬	无	1
 𩝪	无	1
@@ -77837,7 +77843,6 @@ sort: by_weight
 𩺪	无	1
 𩺨	无	1
 𩺩	无	1
-𩺬	无	1
 𩺭	无	1
 𩺮	无	1
 𩺳	无	1
@@ -81269,7 +81274,6 @@ sort: by_weight
 𫄥	无	1
 𫄤	无	1
 𫄢	无	1
-𫄫	无	1
 𫄭	无	1
 𫄯	无	1
 𫄹	无	1
@@ -91846,7 +91850,6 @@ sort: by_weight
 𭴉	无	1
 𭲑	无	1
 𭴌	无	1
-𭴊	无	1
 𭴈	无	1
 𭴋	无	1
 𭴍	无	1
